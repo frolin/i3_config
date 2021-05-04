@@ -1,0 +1,20 @@
+{
+   "checkError": {
+      "message": "Error. Check your internet connection, or try another block of text."
+   },
+   "checkSpelling": {
+      "message": "Check spelling"
+   },
+   "checking": {
+      "message": "Spell check"
+   },
+   "extDescription": {
+      "message": "Find misspellings!"
+   },
+   "extName": {
+      "message": "Spell check"
+   },
+   "noSuggestion": {
+      "message": "No suggestion"
+   }
+}

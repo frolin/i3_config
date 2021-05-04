@@ -1,0 +1,18 @@
+{
+   "background": {
+      "scripts": [ "js/vendor/jquery-1.8.3.min.js", "js/default.js", "js/cookie.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/ico.png",
+      "default_popup": "popup.html",
+      "default_title": "zDebug"
+   },
+   "description": "Debug extension for Zend Debugger.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC98zdiIjJr9TSt+7VM6JQupLNaG6gEsUL11E7q17SRu20GKYgCZID3WGTQBzXk4Yfl94/FenktjJYCiGvdc2Kada5xj9/4nSGLLmmn/KlRVWAwH/jleW++K1CeMPdFms58rHrO8RYJorlKVfuek7xslSRv2M0nMqBMQEyCDdxkBwIDAQAB",
+   "manifest_version": 2,
+   "name": "zDebug",
+   "options_page": "options.html",
+   "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.7"
+}

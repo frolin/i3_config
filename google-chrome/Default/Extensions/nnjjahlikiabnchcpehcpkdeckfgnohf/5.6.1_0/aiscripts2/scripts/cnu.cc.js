@@ -1,0 +1,1 @@
+function aiparser(e){var r=0;function n(n,a){new ParsedPItem({src:n,alt:a},r++,e,function(r){chrome.runtime.sendMessage({cmd:"ADD_IMG",tabId:e.id,item:r})})}var a=document.querySelectorAll(".bodyImg");a.length>0?a.forEach(function(e){n(e.dataset.original)}):document.querySelectorAll("img").forEach(function(e){n(e.src)})}window.aiparser=aiparser;

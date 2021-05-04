@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <title></title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/new_options.css" />	
+  </head>
+  <body>
+
+  <div class="container" style="display:none;">
+	<div>
+		<div class="big-tabs">
+			<div id="parameters-tab" class="big-tab active"><div><img alt="" src="icons/new_options/img-1.png"/></div><span></span></div>
+			<div id="search-tab" class="big-tab" href=""><div><img alt="" src="icons/new_options/img-2.png"/></div><span></span></div>
+			<div id="html-tab" class="big-tab" href=""><div><img alt="" src="icons/new_options/img-3.png"/></div><span></span></div>
+			<div id="integrations-tab" class="big-tab" href=""><div><img alt="" src="icons/new_options/img-4.png"/></div><span></span></div>
+			<div id="extra-tab" class="big-tab" href=""><div><img alt="" src="icons/new_options/img-5.png"/></div><span></span></div>
+			<div id="support-tab" class="big-tab" href=""><div><img alt="" src="icons/new_options/img-6.png"/></div><span></span></div>
+		</div>
+		
+		<div id="parameters-panel" class="big-panel">
+			<div class="inner">
+				<div class="bar-parameters col-4">
+				</div>
+				
+			</div>
+		</div>
+		
+		<div id="search-panel" class="big-panel" style="display:none;">
+			<div class="small-tabs">
+				<div id="yandex-small-tab" class="small-tab"></div>
+				<div id="google-small-tab" class="small-tab"></div>
+			</div>
+			<div id="yandex-small-panel" class="small-panel inner">
+				<div class="yandex-urls-to-check"></div>
+				<div class="yandex-parameters col-4"></div>
+				
+			</div>
+			
+			<div id="google-small-panel" class="small-panel inner" style="display: none;">
+				<div class="google-urls-to-check"></div>
+				<div class="google-parameters col-4"></div>
+				
+			</div>
+		</div>
+		
+		<div id="html-panel" class="big-panel" style="display:none;">			
+			<div class="inner">
+			    <div class="col-1">
+					<div class="page-highlighting-cnt"></div>
+			        <div class="page-noindex"></div>
+                                <div class="page-nofollow"></div>
+                                <div class="page-sponsored"></div>
+                                <div class="page-ugc"></div>
+                                <div class="page-canonical"></div>
+                                <div class="page-robots"></div>
+                                <div class="page-outerlinks"></div>
+	                        <div class="page-displaynone"></div>  
+			    </div>
+			</div>
+		</div>		
+		
+		<div id="integrations-panel" class="big-panel" style="display:none;">			
+			<div class="inner">
+			    <div class="in-progress"></div>
+			</div>
+		</div>
+		
+		<div id="extra-panel" class="big-panel" style="display:none;">
+			<div class="inner">
+				<div class="col-1">
+					<div class="bar-positions-cnt"></div>
+					<div class="bar-check">
+					    <div class="box"></div>
+					</div>
+					<div class="bar_italic">
+                                            <div class="box"></div>
+                                        </div>
+                                        <div class="bar_language">
+                                            <div class="box"></div>
+                                        </div>
+ 
+				</div>
+			</div>
+		</div>
+		
+		<div id="support-panel" class="big-panel" style="display:none;">
+			<div class="inner">
+				<div class="col-1">					
+					<div id="support"></div>				
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="buttons">
+			<div class="left">
+				<button id="default"></button>
+				<button id="disableAPI"></button>
+				<button id="cleanCache"></button>
+			</div>
+			<div class="right">
+				<button id="save" disabled="disabled"></button>
+				<button id="cancel"></button>
+			</div>
+		</div>
+	</div>
+	<p class="sub-text"><img alt="" src="icons/new_options/img-0.png"/> <b id="bar-version" class="f-s-13"></b> <a id="bar-update" href="dfs" class="f-s-12 update"></a></p>
+  </div>
+  
+  	
+    <div class="contextmenu"><div class="cm-cnt"></div><div class="cm-close"><img alt="" src="icons/new_options/img-14.png"/></div></div>
+   
+    <script data-main="new_options/index.js" src="lib/require.js"></script>
+
+  </body>
+</html>

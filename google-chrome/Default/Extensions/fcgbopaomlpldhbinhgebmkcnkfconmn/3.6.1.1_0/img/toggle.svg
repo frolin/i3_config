@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Atoms / Icons / Add users Copy 67</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,4.44444427 C8,4.59490744 7.95052073,4.72511573 7.85156267,4.83506913 C7.75260413,4.94502304 7.63541666,5 7.50000026,5 L0.500000204,5 C0.364583336,5 0.247395869,4.94502304 0.148437335,4.83506913 C0.0494792671,4.72511573 0,4.59490744 0,4.44444427 C0,4.2939811 0.0494792671,4.16377282 0.148437335,4.05381942 L3.64843736,0.164930874 C3.7473959,0.0549769581 3.86458337,0 4.00000023,0 C4.13541663,0 4.2526041,0.0549769581 4.35156264,0.164930874 L7.85156267,4.05381942 C7.95052073,4.16377282 8,4.2939811 8,4.44444427 L8,4.44444427 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-233.000000, -1680.000000)" id="Atoms-/-Icons-/-Add-users-Copy-67">
+            <g transform="translate(233.000000, 1680.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#1B6EBE" transform="translate(4.000000, 2.500000) rotate(180.000000) translate(-4.000000, -2.500000) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,185 @@
+{
+   "conf_enable": {
+      "message": "Habilitar"
+   },
+   "conf_none": {
+      "message": "Nada"
+   },
+   "conf_notsaved": {
+      "message": "No se ha guardado"
+   },
+   "conf_save": {
+      "message": "Guardar"
+   },
+   "conf_saved": {
+      "message": "Se ha guardado"
+   },
+   "conf_setdefault": {
+      "message": "Establecer como predeterminado"
+   },
+   "ext_description": {
+      "message": "Spell Checker para Chrome. Es fácil de usar y rápido . Esta extensión está disponible en 12 idiomas para el corrector ortográfico ."
+   },
+   "ext_name": {
+      "message": "Spell Checker for Chrome"
+   },
+   "locale": {
+      "message": "es"
+   },
+   "msg_add": {
+      "message": "Añadir"
+   },
+   "msg_addtouserdic": {
+      "message": "Agregar al diccionario del usuario"
+   },
+   "msg_areyousure": {
+      "message": "Esta usted seguro?"
+   },
+   "msg_autoclosewin": {
+      "message": "Auto cerrar"
+   },
+   "msg_autoclosewindesc": {
+      "message": "Auto cerrar después de cambiar."
+   },
+   "msg_autocorrection": {
+      "message": "Auto corrección"
+   },
+   "msg_change": {
+      "message": "Cambiar"
+   },
+   "msg_changeall": {
+      "message": "Cambiar todo."
+   },
+   "msg_changealldesc": {
+      "message": "Cambiar todo de la misma fuente"
+   },
+   "msg_changecolor": {
+      "message": "Cambiar color del texto"
+   },
+   "msg_close": {
+      "message": "Cerrar"
+   },
+   "msg_color": {
+      "message": "Color"
+   },
+   "msg_contextmenu": {
+      "message": "Menú contextual de Chrome"
+   },
+   "msg_copyclipboard": {
+      "message": "El texto se a copiado en el portapapeles."
+   },
+   "msg_copytext": {
+      "message": "Copiar texto."
+   },
+   "msg_correctcolor": {
+      "message": "Color de la palabra corregida"
+   },
+   "msg_current": {
+      "message": "Actual"
+   },
+   "msg_delete": {
+      "message": "Borrar"
+   },
+   "msg_deletefromuserdic": {
+      "message": "Borrar del diccionario del usuario"
+   },
+   "msg_desc": {
+      "message": "Mostrar descripción."
+   },
+   "msg_edit": {
+      "message": "Editar"
+   },
+   "msg_error": {
+      "message": "Ha ocurrido un error."
+   },
+   "msg_first": {
+      "message": "Es primero."
+   },
+   "msg_gospellcheck": {
+      "message": "Revisar Ortografía"
+   },
+   "msg_last": {
+      "message": "Es pasado."
+   },
+   "msg_load": {
+      "message": "Cargar"
+   },
+   "msg_loadcomplete": {
+      "message": "Se han cargado los datos"
+   },
+   "msg_manual": {
+      "message": "Manual"
+   },
+   "msg_next": {
+      "message": "Siguiente"
+   },
+   "msg_nodata": {
+      "message": "No hay datos."
+   },
+   "msg_noinput": {
+      "message": "No hay datos."
+   },
+   "msg_notfound": {
+      "message": "Revision de ortografia finalizada. No se encontraron errores."
+   },
+   "msg_notselected": {
+      "message": "No hay elección."
+   },
+   "msg_open_current": {
+      "message": "Abrir en la pestaña actual"
+   },
+   "msg_open_newtab": {
+      "message": "Abrir en nueva pestaña"
+   },
+   "msg_open_newwindow": {
+      "message": "Abrir en nueva ventana"
+   },
+   "msg_openeditwindow": {
+      "message": "Abrir editor."
+   },
+   "msg_opennewtablast": {
+      "message": "Crear una nueva pestaña en el extremo derecho"
+   },
+   "msg_option": {
+      "message": "Opcion"
+   },
+   "msg_prev": {
+      "message": "Previo"
+   },
+   "msg_ratedesc": {
+      "message": "Si te gusta, agradecemos que nos des 5 estrellas y le cuentes a tus amigos ."
+   },
+   "msg_ratethisitem": {
+      "message": "Valora esta extencion"
+   },
+   "msg_shortcut": {
+      "message": "Atajos"
+   },
+   "msg_sort": {
+      "message": "Ordenar"
+   },
+   "msg_source": {
+      "message": "Fuente"
+   },
+   "msg_spellanalysis": {
+      "message": "Análisis de ortografia."
+   },
+   "msg_spellcheck": {
+      "message": "Revisar ortografía."
+   },
+   "msg_stop": {
+      "message": "Deténgase"
+   },
+   "msg_suggest": {
+      "message": "Sugerir"
+   },
+   "msg_unsort": {
+      "message": "Sin ordenar"
+   },
+   "msg_userdictionary": {
+      "message": "Diccionario del usuario"
+   },
+   "msg_wait": {
+      "message": "Espera"
+   }
+}

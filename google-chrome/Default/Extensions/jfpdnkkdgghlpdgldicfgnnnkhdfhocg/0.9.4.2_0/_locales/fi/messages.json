@@ -1,0 +1,191 @@
+{
+   "conf_enable": {
+      "message": "Päälle"
+   },
+   "conf_none": {
+      "message": "Ei mitään"
+   },
+   "conf_notsaved": {
+      "message": "Ei tallennettu"
+   },
+   "conf_save": {
+      "message": "Tallenna"
+   },
+   "conf_saved": {
+      "message": "Tallennettu"
+   },
+   "conf_setdefault": {
+      "message": "Aseta oletus"
+   },
+   "ext_description": {
+      "message": "Okeinkirjoituksen tarkennuslaajennos Chrome-selaimelle. Helppokäyttöinen ja nopea. Laajennos tukee oikeinkirjoituksen tarkastusta 12 kielellä."
+   },
+   "ext_name": {
+      "message": "Spell Checker for Chrome"
+   },
+   "msg_add": {
+      "message": "Lisää"
+   },
+   "msg_addtouserdic": {
+      "message": "Lisää käyttäjän sanastoon"
+   },
+   "msg_areyousure": {
+      "message": "Oletko varma?"
+   },
+   "msg_autoclosewin": {
+      "message": "Sulje tämä ikkuna automaattisesti"
+   },
+   "msg_autoclosewindesc": {
+      "message": "Sulje ikkuna muutoksen jälkeen"
+   },
+   "msg_change": {
+      "message": "Vaihda"
+   },
+   "msg_changeall": {
+      "message": "Vaihda kaikki"
+   },
+   "msg_changealldesc": {
+      "message": "Vaihda kaikki samasta lähteestä"
+   },
+   "msg_changecolor": {
+      "message": "Muutetun sanan väri"
+   },
+   "msg_close": {
+      "message": "Sulje"
+   },
+   "msg_color": {
+      "message": "Väri"
+   },
+   "msg_contextmenu": {
+      "message": "Chrome-selaimen kontekstivalikko"
+   },
+   "msg_copyclipboard": {
+      "message": "Teksti kopioitiin leikepöydälle."
+   },
+   "msg_copytext": {
+      "message": "Kopioi teksti"
+   },
+   "msg_correctcolor": {
+      "message": "Korjatun sanan väri"
+   },
+   "msg_current": {
+      "message": "Nykyinen"
+   },
+   "msg_delete": {
+      "message": "Poista"
+   },
+   "msg_deletefromuserdic": {
+      "message": "Poista käyttäjän sanastosta"
+   },
+   "msg_desc": {
+      "message": "Näytä kuvaus"
+   },
+   "msg_edit": {
+      "message": "Muokkaa"
+   },
+   "msg_error": {
+      "message": "Tapahtui virhe."
+   },
+   "msg_first": {
+      "message": "Ensimmäinen."
+   },
+   "msg_gospellcheck": {
+      "message": "Aloita tarkastaminen!"
+   },
+   "msg_last": {
+      "message": "Viimeinen."
+   },
+   "msg_load": {
+      "message": "Lataa"
+   },
+   "msg_loadcomplete": {
+      "message": "Tiedot ovat ladattu"
+   },
+   "msg_manual": {
+      "message": "Ohjeet"
+   },
+   "msg_maxwidth": {
+      "message": "Oikeinkirjotusalueen maksimileveys"
+   },
+   "msg_maxword": {
+      "message": "Enemmän kuin %s merkkiä on lyhennetty."
+   },
+   "msg_next": {
+      "message": "Seuraava"
+   },
+   "msg_nodata": {
+      "message": "Ei tietoa"
+   },
+   "msg_noinput": {
+      "message": "Tietoja ei valittu."
+   },
+   "msg_notfound": {
+      "message": "Oikeinkirjoitus valmis. Kirjoitusvirheitä ei löytynyt."
+   },
+   "msg_notselected": {
+      "message": "Ei valintaa."
+   },
+   "msg_open_current": {
+      "message": "Avoinna nykyisessä välilehdessä"
+   },
+   "msg_open_existtab": {
+      "message": "Avoinna uudessa välilehdessä"
+   },
+   "msg_open_newtab": {
+      "message": "Avoinna välilehdessä"
+   },
+   "msg_open_newwindow": {
+      "message": "Avoinna uudessa ikkunassa"
+   },
+   "msg_open_poswindow": {
+      "message": "Avoinna ikkunassa"
+   },
+   "msg_openeditwindow": {
+      "message": "Avaa muokkausikkuna"
+   },
+   "msg_opennewtablast": {
+      "message": "Luo uusi välilehti viimeseksi oikealle"
+   },
+   "msg_opentype": {
+      "message": "Oikeinkirjoituksen vapaasyöttö"
+   },
+   "msg_option": {
+      "message": "Valinta"
+   },
+   "msg_prev": {
+      "message": "Edellinen"
+   },
+   "msg_ratedesc": {
+      "message": "Jos pidät laajennoksesta, olemme kiitollisia jos annat sille viisi tähteä ja kerrot myös siitä ystävillesi."
+   },
+   "msg_ratethisitem": {
+      "message": "Arvostele tämä laajennos"
+   },
+   "msg_shortcut": {
+      "message": "Oikopolut"
+   },
+   "msg_sort": {
+      "message": "Järjestä"
+   },
+   "msg_source": {
+      "message": "Lähde"
+   },
+   "msg_spellanalysis": {
+      "message": "Oikeinkirjoituksen analysointi"
+   },
+   "msg_spellcheck": {
+      "message": "Oikeinkirjoituksen tarkastus"
+   },
+   "msg_suggest": {
+      "message": "Ehdotus"
+   },
+   "msg_unsort": {
+      "message": "Peru järjestys"
+   },
+   "msg_userdictionary": {
+      "message": "Käyttäjän sanasto"
+   },
+   "msg_wait": {
+      "message": "Odota"
+   }
+}

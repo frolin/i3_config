@@ -1,0 +1,1 @@
+function aiparser(e){var r=0;document.querySelectorAll(".picChoose img, .WB_pic img").forEach(function(i){var a;a=i.src,new ParsedPItem({src:a},r++,e,function(r){chrome.runtime.sendMessage({cmd:"ADD_IMG",tabId:e.id,item:r})})})}window.aiparser=aiparser;

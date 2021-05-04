@@ -1,0 +1,223 @@
+:root {
+  --white-color: #ffffff;
+  --red-color: #d66464;
+  --yellow-color: #e2ca27;
+  --electric-violet-color: #6039fa;
+  --violet-color: #7a59ff;
+  --blue-color-3: #819be5;
+  --blue-color-4: #8eb1ed;
+  --blue-color-5: #a4c1ed;
+  --blue-color-6: #acccf5;
+  --cerulean-color: #006cb4;
+  --black-color: #2c2f3b;
+  --botticelli-color: #d9dfec;
+  --grey-color: #edf0f5;
+  --grey-color-1: #a1a7bc;
+
+  --font-size-1: 20px;
+  --font-size-2: 18px;
+  --font-size-3: 16px;
+  --font-size-4: 14px;
+  --font-size-5: 12px;
+  --font-size-6: 13px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+.logo-prod {
+  padding-left: 40px;
+  cursor: pointer;
+}
+.headers-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 56px;
+  border-bottom: 1px solid var(--botticelli-color);
+  margin-bottom: 20px;
+  width: 100%;
+}
+.headers-header .about-serpstat {
+  border-left: 1px solid var(--black-color);
+  margin-left: 15px;
+  width: 148px;
+  height: 23px;
+}
+.headers-header .about-serpstat .description {
+  padding-left: 15px;
+  font-size: var(--font-size-5);
+}
+.headers-hierarchy {
+  padding-left: 40px;
+}
+.hierarchy-title {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--black-color);
+  font-size: var(--font-size-1);
+  margin-bottom: 20px;
+}
+.hierarchy-title .link {
+  color: var(--cerulean-color);
+  text-decoration: none;
+}
+
+.hierarchy-colors {
+  display: flex;
+  flex-direction: row;
+}
+.hierarchy-colors div {
+  font-size: var(--font-size-5);
+  font-weight: 500;
+  width: 58px;
+  height: 23px;
+  border-radius: 2px;
+  margin-right: 4px;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header-block {
+  width: 40px;
+  height: 23px;
+  border-radius: 2px;
+  display: flex;
+  color: var(--white-color);
+  margin-left: 8px;
+  margin-right: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: var(--font-size-5);
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Tree styles*/
+.tree-headers-structure {
+  margin-top: 16px;
+  padding-left: 60px;
+}
+.tree {
+  font-family: Roboto;
+}
+.label {
+  font-size: var(--font-size-6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--font-size-5);
+  line-height: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 23px;
+  color: var(--white-color);
+  white-space: nowrap;
+  border-radius: 1px;
+}
+.tree > h1 {
+  margin-bottom: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: var(--font-size-1);
+}
+.tree > h2 {
+  margin-left: 40px;
+  padding-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: var(--font-size-2);
+}
+.tree > h3 {
+  margin-left: 80px;
+  margin-bottom: 8px;
+  font-weight: normal;
+  font-size: var(--font-size-3);
+}
+.tree > h4 {
+  margin-left: 120px;
+  margin-bottom: 8px;
+  font-weight: normal;
+  font-size: var(--font-size-4);
+}
+.tree > h5 {
+  margin-left: 160px;
+  margin-bottom: 8px;
+  font-weight: normal;
+  font-size: var(--font-size-5);
+}
+.tree > h6 {
+  color: inherit;
+  margin-left: 200px;
+  margin-bottom: 8px;
+  text-transform: none;
+  font-weight: normal;
+  font-size: var(--font-size-5);
+}
+
+.label-success-h1,
+.H1-color {
+  background-color: var(--electric-violet-color);
+}
+.label-success-h2,
+.H2-color {
+  background-color: var(--violet-color);
+}
+.label-success-h3,
+.H3-color {
+  background-color: var(--blue-color-3);
+}
+.label-success-h4,
+.H4-color {
+  background-color: var(--blue-color-4);
+}
+.label-success-h5,
+.H5-color {
+  background-color: var(--blue-color-5);
+}
+.label-success-h6,
+.H6-color {
+  background-color: var(--blue-color-6);
+}
+.label-warning {
+  background-color: var(--yellow-color);
+}
+.label-header-is-empty {
+  background-color: var(--grey-color);
+  color: var(--grey-color-1);
+}
+
+.text-muted,
+.one-more-h1 {
+  color: var(--red-color);
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+.one-more-h1 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.alert-icon {
+  margin-right: 8px;
+  margin-left: -24px;
+}
+.about-serpstat {
+  display: flex;
+  align-items: center;
+}

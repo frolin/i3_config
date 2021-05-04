@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Time</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,13.7931034 C4.80551724,13.7931034 2.20689655,11.1944828 2.20689655,8 C2.20689655,4.80551724 4.80551724,2.20689655 8,2.20689655 C11.1944828,2.20689655 13.7931034,4.80551724 13.7931034,8 C13.7931034,11.1944828 11.1944828,13.7931034 8,13.7931034 M8,0 C12.4115862,0 16,3.58841379 16,8 C16,12.4115862 12.4115862,16 8,16 C3.58841379,16 0,12.4115862 0,8 C0,3.58841379 3.58841379,0 8,0 Z M10.1896828,7.02267586 L8.91961379,7.43315862 L8.91961379,4.8566069 C8.91961379,4.2464 8.42526897,3.75315862 7.81616552,3.75315862 C7.20595862,3.75315862 6.71271724,4.2464 6.71271724,4.8566069 L6.71271724,8.9481931 C6.71271724,9.3001931 6.88044138,9.63233103 7.16623448,9.84088276 C7.35713103,9.97991724 7.58554483,10.0516414 7.81616552,10.0516414 C7.92982069,10.0516414 8.04347586,10.0339862 8.15492414,9.99867586 L10.8672,9.12364138 C11.4476138,8.93605517 11.7654069,8.31481379 11.5789241,7.73550345 C11.3913379,7.15398621 10.7712,6.8384 10.1896828,7.02267586 Z" id="path-1"></path>
+    </defs>
+    <g id="Settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Плагин---Настройки" transform="translate(-767.000000, -1427.000000)">
+            <g id="Settings-for-clients" transform="translate(283.000000, 907.000000)">
+                <g id="Settings" transform="translate(464.000000, 28.000000)">
+                    <g id="Operations" transform="translate(0.000000, 435.000000)">
+                        <g id="Atoms-/-Elements-/-Text-with-icon-/-a.text.icon" transform="translate(20.000000, 57.000000)">
+                            <g id="Time">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="icon-time-cycle" fill="#2C2F3B" xlink:href="#path-1"></use>
+                                <g id="Atoms-/-Colours-/-Blue-/-a.colour.blue.b800" mask="url(#mask-2)" fill="#1B71BE">
+                                    <rect id="B-900" x="0" y="0" width="16" height="16"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

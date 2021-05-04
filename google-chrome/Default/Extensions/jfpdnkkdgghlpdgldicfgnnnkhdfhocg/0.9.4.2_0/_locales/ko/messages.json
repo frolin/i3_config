@@ -1,0 +1,215 @@
+{
+   "conf_enable": {
+      "message": "사용하기"
+   },
+   "conf_none": {
+      "message": "없음"
+   },
+   "conf_notsaved": {
+      "message": "저장이 안되었습니다."
+   },
+   "conf_save": {
+      "message": "저장"
+   },
+   "conf_saved": {
+      "message": "저장 되었습니다."
+   },
+   "conf_setdefault": {
+      "message": "기본값 불러오기"
+   },
+   "ext_description": {
+      "message": "맞춤법 검사기 입니다. 사용하기 쉽고 빠르며 다양한 언어의 맞춤법 검사를 지원합니다."
+   },
+   "ext_name": {
+      "message": "Spell Checker for Chrome"
+   },
+   "locale": {
+      "message": "ko"
+   },
+   "msg_add": {
+      "message": "추가"
+   },
+   "msg_addtouserdic": {
+      "message": "사용자 사전에 추가"
+   },
+   "msg_areyousure": {
+      "message": "확실 합니까?"
+   },
+   "msg_autoclosewin": {
+      "message": "이 창 자동 닫기"
+   },
+   "msg_autoclosewindesc": {
+      "message": "변경후 이 창을 자동으로 닫습니다."
+   },
+   "msg_autocorrection": {
+      "message": "자동 보정하기"
+   },
+   "msg_change": {
+      "message": "변경"
+   },
+   "msg_changeall": {
+      "message": "모두 변경"
+   },
+   "msg_changealldesc": {
+      "message": "같은 원본은 모두 변경"
+   },
+   "msg_changecolor": {
+      "message": "변경된 단어 색"
+   },
+   "msg_close": {
+      "message": "닫기"
+   },
+   "msg_color": {
+      "message": "색깔"
+   },
+   "msg_contextmenu": {
+      "message": "Chrome 컨텍스트(우클릭) 메뉴"
+   },
+   "msg_copyclipboard": {
+      "message": "클립보드에 복사되었습니다."
+   },
+   "msg_copytext": {
+      "message": "텍스트로 복사"
+   },
+   "msg_correctcolor": {
+      "message": "보정된 단어 색"
+   },
+   "msg_current": {
+      "message": "현재"
+   },
+   "msg_delete": {
+      "message": "삭제"
+   },
+   "msg_deletefromuserdic": {
+      "message": "사용자 사전에서 삭제"
+   },
+   "msg_desc": {
+      "message": "설명 보기"
+   },
+   "msg_edit": {
+      "message": "편집"
+   },
+   "msg_error": {
+      "message": "에러가 있습니다."
+   },
+   "msg_first": {
+      "message": "처음 입니다."
+   },
+   "msg_gospellcheck": {
+      "message": "맞춤법 검사 시작"
+   },
+   "msg_last": {
+      "message": "마지막 입니다."
+   },
+   "msg_load": {
+      "message": "읽어오기"
+   },
+   "msg_loadcomplete": {
+      "message": "데이터를 읽어왔습니다."
+   },
+   "msg_manual": {
+      "message": "수동입력"
+   },
+   "msg_maxwidth": {
+      "message": "맞춤법 검사 영역의 최대 넓이"
+   },
+   "msg_maxword": {
+      "message": "%s 글자를 초과하여 초과된 부분은 검사를 하지 않습니다."
+   },
+   "msg_next": {
+      "message": "다음"
+   },
+   "msg_nodata": {
+      "message": "데이타가 없습니다."
+   },
+   "msg_noinput": {
+      "message": "입력한 데이터가 없습니다."
+   },
+   "msg_nosuggest": {
+      "message": "추천어 없음"
+   },
+   "msg_notfound": {
+      "message": "맞춤법 검사가 완료되었습니다. 철자 오류를 찾을 수 없습니다."
+   },
+   "msg_notselected": {
+      "message": "선택된 것이 없습니다."
+   },
+   "msg_open_current": {
+      "message": "현재 탭에서 열기"
+   },
+   "msg_open_existtab": {
+      "message": "열려진 새 탭에서 열기"
+   },
+   "msg_open_newtab": {
+      "message": "새 탭에서 열기"
+   },
+   "msg_open_newwindow": {
+      "message": "새 창에서 열기"
+   },
+   "msg_open_poswindow": {
+      "message": "지정된 팝업창에서 열기"
+   },
+   "msg_openeditwindow": {
+      "message": "편집 창 열기"
+   },
+   "msg_opennewtablast": {
+      "message": "맨 오른쪽에서 새 탭 열기"
+   },
+   "msg_opentype": {
+      "message": "맞춤법 검사 여는 방법"
+   },
+   "msg_option": {
+      "message": "옵션"
+   },
+   "msg_prev": {
+      "message": "이전"
+   },
+   "msg_ratedesc": {
+      "message": "도움이 되셨다면 추천 많이 해주시고 친구들에게 알려주세요. 감사합니다."
+   },
+   "msg_ratethisitem": {
+      "message": "평가하기"
+   },
+   "msg_selectcolor": {
+      "message": "선택 배경색"
+   },
+   "msg_shortcut": {
+      "message": "단축키"
+   },
+   "msg_sort": {
+      "message": "정렬"
+   },
+   "msg_source": {
+      "message": "원본"
+   },
+   "msg_spellanalysis": {
+      "message": "맞춤법 검사 분석"
+   },
+   "msg_spellcheck": {
+      "message": "맞춤법 검사"
+   },
+   "msg_stop": {
+      "message": "정지"
+   },
+   "msg_suggest": {
+      "message": "추천"
+   },
+   "msg_suggestedlang": {
+      "message": "추천 언어"
+   },
+   "msg_toolong": {
+      "message": "데이터가 너무 깁니다. 뒷부분 검사는 취소되었습니다."
+   },
+   "msg_unsort": {
+      "message": "정렬 취소"
+   },
+   "msg_userdictionary": {
+      "message": "사용자 사전"
+   },
+   "msg_wait": {
+      "message": "기다려주세요"
+   },
+   "msg_wrongword": {
+      "message": "잘못된 문자(%s)를 포함하고 있습니다."
+   }
+}

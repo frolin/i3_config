@@ -1,0 +1,1309 @@
+{
+    "parameters": {
+        "IG": {
+            "name": "Index <span class=\"rds-blue\">G</span>",
+            "ttl": "Count of website pages got to Google"
+        },
+        "MIG": {
+            "ttl": "Count of pages in the main index of Google. Those pages that are involved in the main search engine results, except for the pages from Supplemental Index"
+        },
+        "IGP": {
+            "name": "Index <span class=\"rds-blue\">G</span> Pg",
+            "ttl": "Indexation of this page in Google search engine"
+        },
+        "PR": {
+            "name": "PR",
+            "ttl": "Google Page Rank of current page.",
+            "PRMain": "Google Page Rank of home page"
+        },
+        "Dmoz": {
+            "name": "Curlie",
+            "ttl": "Presence of the website in Curlie - the biggest international website-catalog"
+        },
+        "WA": {
+            "name": "WebArch",
+            "ttl": "The month and the year of the first log in WebArchive"
+        },
+        "MozRank": {
+            "name": "MozRank",
+            "ttl": "Link popularity of the current page according to SEOmoz"
+        },
+        "SeoM": {
+            "name": "SEOmoz",
+            "ttl": "Authority value of current page and the domain in SeoMoz base"
+        },
+        "Age": {
+            "name": "Age",
+            "ttl": "Minimal value on domain date registration or first log in web.archive.org. Data is taken from the recipdonor.com base."
+        },
+        "Subdomains": {
+            "name": "Subdomains",
+            "ttl": "The count of subdomains of the website according to RDS base. On clicking in shows the TIC sorted list."
+        },
+        "BackG": {
+            "name": "Back <span class=\"rds-blue\">G</span>",
+            "ttl": "Count of the most important inbound links to the website in Google (link:)"
+        },
+        "BackBing": {
+            "name": "Back Bing",
+            "ttl": "Backlinks according to Bing"
+        },
+        "IBing": {
+            "name": "Index Bing",
+            "ttl": "Count of website pages got to Bing search index including subdomains"
+        },
+        "BI": {
+            "name": "Bing out",
+            "ttl": "Count of internal links from the website in Bing search engine (linkfromdomain:)"
+        },
+        "Alexa": {
+            "name": "Alexa",
+            "ttl": "Rating of Alexa traffic"
+        },
+        "BackA": {
+            "name": "Back Alexa",
+            "ttl": "Backlinks according to Alexa"
+        },
+        "Majestic": {
+            "name": "MJ",
+            "ttl": "Count of inbound links to the website in MajesticSeo.com"
+        },
+        "CF": {
+            "name": "Citation Flow",
+            "ttl": "Citation Flow is a number of predicting how influential a URL might be based on how many sites link to it"
+        },
+        "TF": {
+            "name": "Trust Flow",
+            "ttl": "Trust Flow is a number predicting how trustworthy a page is based on how trustworthy sites tend to link to trustworthy neighbors"
+        },
+        "Ahrefs": {
+            "name": "Ahrefs",
+            "ttl": "The number of incoming links according to Ahrefs."
+        },
+        "AhrefsTB": {
+            "name": "Ahrefs",
+            "ttl": "Ahrefs rank, backlinks, reffering domains."
+        },
+        "AhrefsPage": {
+            "name": "Ahrefs Page",
+            "ttl": "Ahrefs рage rank, backlinks, reffering domains."
+        },
+        "AhrefsDomain": {
+            "name": "Ahrefs Domain",
+            "ttl": "Ahrefs domain rank, backlinks, reffering domains."
+        },
+        "SemRush": {
+            "name": "SEMRush",
+            "ttl": "SEMRush rating – is the website rating according to the count of visitors coming from the first 20 Google search results"
+        },
+        "Pictures": {
+            "name": "Images",
+            "ttl": "Count of website pictures, that got to Google (.com) search index"
+        },
+        "SimilarWeb": {
+            "name": "SimilarWeb",
+            "ttl": "SimilarWeb."
+        },
+        "IP": {
+            "name": "IP",
+            "ttl": "The IP address of the server where the website is located"
+        },
+        "IPSitesCount": {
+            "name": "IP websites",
+            "ttl": "The number of the IP websites"
+        },
+        "Host": {
+            "name": "Host",
+            "ttl": "Host (domain name) is the name of the computer, that possesses this IP address. It's often easy to identify according it the hosting company, where the website is located"
+        },
+        "Provider": {
+            "name": "Provider",
+            "ttl": "Provider (hoster) name who possesses this IP address, where the website is located"
+        },
+        "Geo": {
+            "name": "Geography",
+            "ttl": "Country and city where the website server is located"
+        },
+        "CMS": {
+            "name": "CMS",
+            "ttl": "Analyzing the content of the page, it identifies the usage of the main popular \"engines\" for website administration: WP, Joomla, Drupal, TYPO3, DLE, Magento and others. The functionality of current option identification was borrowed from wappalyzer.com plug-in, and later was improved for a range of other Russian-language engines."
+        },
+        "LIO": {
+                "name": "Links",
+                "ttl": "Links(in/out)- are internal (unique) or inbound (except rel=\"nofollow\", noscript, textarea, subdomains) links of  current page."
+        },
+        "SocialNetworks": {
+                "name": "Social Networks",
+                "ttl": "Recommendations on social networking site Google +1, Facebook, Vkontakte, Twitter."
+        },
+        "StatHistory": {
+            "name": "Website Traffic",
+            "ttl": "Website Traffic - estimated website traffic by RDS. Traffic History",
+            "value": "Traffic"
+        },
+        "Counters": {
+            "name": "Statistics",
+            "ttl": "Statistics – is the website registration check in the most popular systems of website statistics. Their availability for unauthorized users. Traffic value for the last 24 hours or for the previous day."
+        },
+        "APICounters": {
+            "name": "Statistics",
+            "ttl": "Statistics – is the website registration check in the most popular systems of website statistics. Their availability for unauthorized users. Traffic value for the last 24 hours or for the previous day."
+        },
+        "CheckDangerous": {
+            "name": "Dangerous",
+            "ttl": "Check for viruses on the website according to Yandex, Google and Webmoney.Advisor"
+        },
+        "Validation": {
+            "name": "Validator",
+            "ttl": "Check of validity of page make up according to validator.w3.org standards."
+        },
+        "RSS": {
+            "name": "RSS-feeds",
+            "ttl": "Availability of RSS-feeds"
+        },
+        "Robots": {
+            "name": "Robots",
+            "ttl": "Availability of robots.txt file "
+        },
+        "Nesting": {
+            "name": "Page nesting level",
+            "ttl": "Page nesting level"
+        },
+        "Sitemap": {
+            "name": "Sitemap",
+            "ttl": "Availability of Sitemap.xml file"
+        }
+    },
+    "parser": {
+        "Validation": {
+            "successed": "Validation is passed"
+        }
+    },
+    "popup": {
+        "parameters": {
+            "SemRush": {
+                "name": "SEMRush rating",
+                "ttl": "SEMRush rating – is the website rating according to the count of visitors coming from the first 20 Google search results"
+            },
+            "SemRush_traffic": {
+                "name": "Search traffic",
+                "ttl": "Search traffic – is the count of visitors coming on the website from the first 20 Google search results per month"
+            },
+            "PicturesGo": {
+                "name": "Images <span class=\"rds-blue\">G</span>",
+                "ttl": "Count of website pictures, that got to Google (.com) search index."
+            },
+          "AhrefsRank": {
+            "name": "AR",
+            "ttl": "Ahrefs рage (domain) rank."
+          },
+          "AhrefsPage": {
+            "name": "Ahrefs Page",
+            "ttl": "Ahrefs рage backlinks, reffering domains."
+          },
+          "AhrefsDomain": {
+            "name": "Ahrefs Domain",
+            "ttl": "Ahrefs domain backlinks, reffering domains."
+          },
+            "Counters": {
+                "name": "Statistics",
+                "ttl": "Statistics – is the website registration check in the most popular systems of website statistics. Their availability for unauthorized users. Traffic value for the last 24 hours or for the previous day."
+            },
+            "WhoisCount": {
+                "name": "Whois",
+                "ttl": "Minimal value on domain date registration or first log in web.archive.org. Data is taken from the recipdonor.com base."
+            },
+            "liveinternet": {
+                "name": "Live Int",
+                "ttl": ""
+            },
+            "Alexa": {
+                "name": "Alexa",
+                "ttl": ""
+            },
+            "rambler": {
+                "name": "Rambler",
+                "ttl": ""
+            },
+            "mail": {
+                "name": "Mail.Ru",
+                "ttl": ""
+            },
+            "hotlog": {
+                "name": "HotLog",
+                "ttl": ""
+            },
+            "bigmir": {
+                "name": "Bigmir",
+                "ttl": ""
+            },
+            "i_ua": {
+                "name": "I.UA",
+                "ttl": ""
+            },
+            "ya_metric": {
+                "name": "Ya.Metrika",
+                "ttl": ""
+            },
+            "openstat": {
+                "name": "Openstat",
+                "ttl": ""
+            },
+            "topstat": {
+                "name": "Topstat",
+                "ttl": ""
+            },
+            "mycounter": {
+                "name": "Mycounter",
+                "ttl": ""
+            },
+            "log24": {
+                "name": "Log24",
+                "ttl": ""
+            },
+            "yandeg": {
+                "name": "Yandeg",
+                "ttl": ""
+            },
+            "mystat": {
+                "name": "Mystat",
+                "ttl": ""
+            },
+            "hit_ua": {
+                "name": "HIT.UA",
+                "ttl": ""
+            },
+            "GA": {
+                "name": "<span class=\"rds-blue\">G</span> Analytics",
+                "ttl": "",
+                "domains": " domains"
+            },
+            "uptolike": {
+                "name": "Uptolike",
+                "ttl": ""
+            },
+            "sape": {
+                "name": "Sape",
+                "ttl": ""
+            },
+            "CMS": {
+                "sites": "CMS",
+                "forums": "Forum",
+                "blogs": "Blog",
+                "shops": "Shop",
+                "galleries": "Gallery"
+            }
+        },
+        "history_count": {
+            "PR": {
+                "name": "PR",
+                "ttl": "Website Page Rank history"
+            },
+            "IY": {
+                "name": "",
+                "ttl": ""
+            },
+            "TYC": {
+                "name": "",
+                "ttl": ""
+            },
+            "MirrorsCount": {
+                "name": "",
+                "ttl": "Количество зеркал сайта по Яндексу"
+            },
+            "WhoisCount": {
+                "name": "Whois",
+                "ttl": "Whois history"
+            }
+        },
+        "ttl_index": "Page rank",
+        "ttl_indexed": "Indexed",
+        "ttl_liks": "Back links ",
+        "ttl_liks_more": "more",
+        "ttl_statistics": "Statistics",
+        "ttl_catalogs": "Catalogs",
+        "ttl_ip": "IP address analysis",
+        "ttl_others": "Other options",
+        "ttl_semrush": "SEMRush",
+        "ttl_history_count": "History of changes"
+    },
+    "bar": {
+        "parameters": {
+            "PR": {
+                "name": "PR, Dmoz",
+                "ttl": "<div class=\"rds-bold\">PR of this page and website presence in DMOZ</div>",
+                "ttl2": "PR of a home page is specified in brackets",
+                "PRMain": "PR of a home page"
+            },
+            "tooltips": {
+            },
+            "Counters": {
+                "name": "Statistics",
+                "ttl": "Presence of the counters of the site attendance"
+            }
+        },
+        "contextmenu": {
+            "Mainmenu": {
+                "enter": {
+                    "name": "Log-in ",
+                    "ttl": ""
+                },
+                "trash": {
+                    "name": "Clear cache",
+                    "ttl": ""
+                },
+                "options": {
+                    "name": "Settings",
+                    "ttl": ""
+                },                
+                "updates_google": {
+                  "name": "Updates",
+                  "ttl": "", 
+                    
+                  "pr": {
+                    "name": "PR Updates:",
+                    "ttl": ""
+                  },
+                  "forum": {
+                    "name": "PR Updates on WebmasterWorld",
+                    "ttl": ""
+                  }
+                },
+                "news_se_watch": {
+                    "name": "News searchenginewatch.com",
+                    "ttl": ""
+                },
+                "news_trafficplanet": {
+                    "name": "News trafficplanet.com",
+                    "ttl": ""
+                },
+                "news_webmasterworld": {
+                    "name": "News webmasterworld.com",
+                    "ttl": ""
+                },
+                "news_se_journal": {
+                    "name": "News searchenginejournal.com",
+                    "ttl": ""
+                },
+                "news_se_land": {
+                    "name": "News searchengineland.com",
+                    "ttl": ""
+                },
+                "news_seochat": {
+                    "name": "News forums.seochat.com",
+                    "ttl": ""
+                },
+                "about": {
+                    "name": "Help and support",
+                    "ttl": ""
+                },
+                "cookies": {
+                    "name": "Cookies",
+                    "ttl": "",
+                    
+                    "session": {
+                      "name": "Delete Cookies of session",
+                      "ttl": ""
+                    },
+                    "host": {
+                      "name": "Delete Cookies of domain",
+                      "ttl": ""
+                    },
+                    "info": {
+                      "name": "Information about Cookies",
+                      "ttl": ""
+                    }
+                },
+                "hotkeys": {
+                  "name": "Shortcuts",
+                  "ttl": "", 
+                  
+                  "ctrlQ": {
+                    "name": "CTRL+Q Copy to clipboard all pages from the cache INDEX G PAGE = YES",
+                    "ttl": ""
+                  },   
+                  "ctrlY": {
+                    "name": "CTRL+SHIFT+Y Copy the results from the current search page to the clipboard",
+                    "ttl": ""
+                  },
+                  "ctrlShiftF": {
+                    "name": "CTRL+SHIFT+F Display the SEO-tags of the current webpage",
+                    "ttl": ""
+                  },
+                  "altS": {
+                    "name": "ALT+S Disable styles",
+                    "ttl": ""
+                  }
+                },
+                "version": {
+                    "name": "Version ",
+                    "ttl": ""
+                },
+                "recipients": {
+                    "name": "Recipients",
+                    "ttl": ""
+                },
+                "show_recipients": {
+                    "name": "View",
+                    "ttl": ""
+                },
+                "more_recipients": {
+                    "name": "",
+                    "ttl": "View all recipients"
+                },
+                "add_recipients": {
+                    "name": "Add",
+                    "ttl": ""
+                },
+                "recipients_topic_stat": {
+                    "name": "Themes and status",
+                    "ttl": ""
+                },
+                "recipients_setting": {
+                    "name": "Settings",
+                    "ttl": ""
+                },
+                "profile": {
+                    "name": "Profile ",
+                    "ttl": ""
+                },
+                "balance": {
+                    "name": "Balance ",
+                    "ttl": ""
+                },
+                "partnership": {
+                    "name": "Partner ",
+                    "ttl": ""
+                },
+                "change_user": {
+                    "name": "Change the user",
+                    "ttl": ""
+                },
+                "exit": {
+                    "name": "Log-Out",
+                    "ttl": ""
+                },
+                "button": {
+                    "name": "Сheck by button",
+                    "ttl": ""
+                }
+
+            },
+            "PR": {
+                "PR": {
+                    "ttl": "",
+                    "name": "Page Rank"
+                },
+                "PRg": {
+                    "ttl": "",
+                    "name": "Verification of Fake Page Rank"
+                },
+                "Dmoz": {
+                    "ttl": "",
+                    "name": "Curlie"
+                },
+                "History": {
+                    "ttl": "",
+                    "name": "History of changes PR"
+                }
+            },
+            "CheckDangerous": {
+                "Yandex": {
+                    "name": "According to Yandex this website can threaten your computer",
+                    "ttl": ""
+                },
+                "Google": {
+                    "name": "According to Google this website can threaten your computer",
+                    "ttl": ""
+                },
+                "WebmoneyAdvisor": {
+                    "name": "According to Webmoney Advisor this website can threaten your computer",
+                    "ttl": ""
+                },
+                "VirusTotal": {
+                    "name": "According to VirusTotal this website can threaten your computer",
+                    "ttl": ""
+                }
+            },
+            "History": {
+                "PR": "PR",
+                "StatHistory": "Traffic",
+                "ttl_p1": "History of changes ",
+                "ttl_p2": " for:",
+                "date": "Date",
+                "change": " changed"
+            },
+            "Subdomains": {
+                "ttl": "Subdomains of "
+            },
+
+            "cost": "cost",
+            "look_at_recip": "look at RDS site",
+            "no_money": "You have not enough funds on the balance to receive this data!",
+            "authorize": "To receive this data you have to authorize",
+            
+            "total": "Total",
+            "sd_nom": " subdomains",
+            "sd_gen": " subdomains",
+            "sd_plu": " subdomains",
+
+            "Counters": {
+
+                "liveinternet": {
+                    "name": "Live Internet",
+                    "ttl": ""
+                },
+                "Alexa": {
+                    "name": "Alexa",
+                    "ttl": ""
+                },
+                "rambler": {
+                    "name": "Rambler Top 100",
+                    "ttl": ""
+                },
+                "mail": {
+                    "name": "Mail.Ru",
+                    "ttl": ""
+                },
+                "hotlog": {
+                    "name": "HotLog",
+                    "ttl": ""
+                },
+                "bigmir": {
+                    "name": "Bigmir",
+                    "ttl": ""
+                },
+                "i_ua": {
+                    "name": "I.UA",
+                    "ttl": ""
+                },
+                "ya_metric": {
+                    "name": "<span class=\"rds-red\">Ya</span>.Metrika",
+                    "ttl": ""
+                },
+                "openstat": {
+                    "name": "Openstat",
+                    "ttl": ""
+                },
+                "topstat": {
+                    "name": "Topstat",
+                    "ttl": ""
+                },
+                "mycounter": {
+                    "name": "Mycounter",
+                    "ttl": ""
+                },
+                "log24": {
+                    "name": "Log24",
+                    "ttl": ""
+                },
+                "yandeg": {
+                    "name": "Yandeg",
+                    "ttl": ""
+                },
+                "mystat": {
+                    "name": "Mystat",
+                    "ttl": ""
+                },
+                "hit_ua": {
+                    "name": "HIT.UA",
+                    "ttl": ""
+                },
+                "GA": {
+                    "name": "<span class=\"rds-blue\">G</span> Analytics",
+                    "ttl": "",
+                    "domains": " domains"
+                },
+                "uptolike": {
+                    "name": "Uptolike",
+                    "ttl": ""
+                },
+                "sape": {
+                    "name": "Sape",
+                    "ttl": ""
+                }
+            },
+            "count": {
+                "nom": "note",
+                "gen": "note",
+                "plu": "notes"
+            },
+            "Age":{
+                "Cr":{
+                    "name": "Whois Cr",
+                    "ttl": ""
+                 },
+                "Exp":{
+                    "name": "Whois Exp",
+                    "ttl": ""
+                },
+                "Info":{
+                    "name": "Owner",
+                    "ttl": ""
+                },
+                "Email":{
+                    "name": "Email",
+                    "ttl": ""
+                },
+                "Dns":{
+                    "name": "Dns",
+                    "ttl": ""
+                },
+                "Phone":{
+                    "name": "Telephone",
+                    "ttl": ""
+                },
+                "RegInfo":{
+                    "name": "The registrar",
+                    "ttl": ""
+                },
+                "HistoryCount":{
+                    "name": "History of changes",
+                    "ttl": ""
+                },
+                "age_by":{
+                    "name": "Age by",
+                    "ttl": ""
+                }
+            }
+        },
+        "buttons": {
+            "Mainmenu": "RDS",
+            "check_by_button": "Check by button",
+            "seo_tags": "Display the SEO tags of the current page",
+            "edit_mode": "Spelling",
+            "main_page": "Opening the home page of the current website in a new tab",
+            "view_source": "Browsing of the source code of current page in a new tab. Analogue to Ctrl+U.",
+            "db": "Database manager",
+            "mass_checking": "Mass checking",
+            "disable_highlighting": "Disable highlighting",
+            "options": "Settings of RDS bar",
+            "trash": "Cache flush for current page",
+            "close": "Hide bar",
+            "copy": "Copy"
+        },
+        "bar_filter_domain": {
+            "ttl": "Exception",
+            "name": "Exception"
+        },
+        "tooltips": {
+            "author": "To receive this data you have to authorize",
+            "bunkrupt": "You have not enough funds on the balance to receive this data",
+            "subdomain":"Current website is a subdomain!",
+            "PR_author": "Authorization is required",
+            "PR_captcha": "Captcha during Fake PR check",
+            "Majestic": "<span class=\"rds-bold\">Dynamics of growth reference mass site.</sapn>",
+            "Ahrefs": "The number of incoming links according to Ahrefs",
+            "AhrefsTB": {
+                "Page": {
+                    "name": "Ahrefs Page",
+                    "ttl": "Ahrefs рage rank, backlinks, reffering domains."
+                },
+                "Domain": {
+                    "name": "Ahrefs Domain",
+                    "ttl": "Ahrefs domain rank, backlinks, reffering domains."
+                }
+            },
+            "CheckDangerous": {
+                "yes": "This website can threaten your computer",
+                "no": "Viruses have not been found"
+            },
+            "LIO": {
+                "ttl": " Internal (unique) and inbound links",
+                "outer_ttl": "Inbound links"
+            },
+            "SocialNetworks" : {
+                "GooglePlus": "Number of users by clicking the Google +1 for the current page in parentheses for the principal (Note that for the domain without www. will have different results).",
+                "Facebook": "Number of users by clicking the Facebook \"Like\" for the current page in parentheses for the principal (Note that for the domain without www. Will have different results).",
+                "Twitter": "Number of entries to Twitter, which refers to the address of the current page in parentheses for the principal (Note that for the domain without www. Will have different results). The data provides a service Topsy.com.",
+                "VK": "Number of users by clicking the VKontakte \"Like\" for the current page in parentheses for the principal."
+            },
+            "SimilarWeb": {
+                "Visits": {
+                    "name": "Monthly Traffic Reach",
+                    "ttl": "Estimated number of internet users who visited the site over the last six months according to SimilarWeb."
+                },
+                "TimeOnSite": {
+                    "name": "Time on Site",
+                    "ttl": "The average time of a visit according to SimilarWeb."
+                },
+                "PagePerVisit": {
+                    "name": "Page Views",
+                    "ttl": "Average number of views according to SimilarWeb."
+                },
+                "BounceRate": {
+                    "name": "Bounce Rate",
+                    "ttl": "Average % of bounce rate according to SimilarWeb."
+                },
+                "CountryShares": {
+                    "name": "Top Referring Countries",
+                    "ttl": "The visitors of the site come from according to SimilarWeb."
+                },
+                "Sources": {
+                    "name": "Traffic Sources",
+                    "ttl": "The main sources of desktop traffic for the site over the last three months according to SimilarWeb."
+                },
+                "Referrals": {
+                    "name": "Refferals",
+                    "ttl": "Переходы с (на) других сайтов по данным SimilarWeb."
+                },
+                "Referring": {
+                    "name": "Leading Referring Sites:\u0020",
+                    "ttl": "Leading websites sending direct clicks to the site according to SimilarWeb."
+                },
+                "Destinations": {
+                    "name": "Leading Destination Sites:\u0020",
+                    "ttl": "Websites where people were diverted to from the site according to SimilarWeb."
+                },
+                "OrganicKeywords": {
+                    "name": "Organic Keywords",
+                    "ttl": "Leading Keywords which brought free desktop traffic to the site over the past three months according to SimilarWeb."
+                }
+            }
+        }
+    },
+    "page": {
+        "nofollow": {
+            "example": {
+                "name": "rel=\"nofollow\"",
+                "ttl": "Highlighting of SEO-tag rel=\"nofollow\""
+            },
+            "clr_bg_txt_and_img": {
+                "name": "Background colour",
+                "ttl": " Background colour"
+            },
+            "clr_brdr_txt": {
+                "name": "The colour of text frame",
+                "ttl": "ЦThe colour of text frame"
+            },
+            "cross_txt": {
+                "name": "The strikethrough text",
+                "ttl": "The strikethrough text"
+            },
+            "clr_brdr_img": {
+                "name": "The colour of pictures frame",
+                "ttl": "The colour of pictures frame"
+            }
+        },
+        "canonical": {
+            "example": {
+                "name": "rel=\"canonical\"",
+                "ttl": "Highlighting of all links on page as rel=\"nofollow\" based on rel=\"nofollow\" settings, if page URL and href from rel=\"canonical\" are different."
+            }
+        },
+        "robots": {
+            "example": {
+                "name": "name=\"robots\"",
+                "ttl": "Highlighting of all links on page as rel=\"nofollow\" based on rel=\"nofollow\" settings, if meta robots content includes nofollow."
+            }
+        },
+        "outerlinks": {
+            "example": {
+                "name": "External links",
+                "ttl": "External links highlighting"
+            },
+            "clr_bg_txt_and_img": {
+                "name": "Background colour",
+                "ttl": "Background colour"
+            },
+            "clr_brdr_txt_and_img": {
+                "name": "The colour of text and pictures frame",
+                "ttl": "The colour of text and pictures frame"
+            },
+            "cross_txt": {
+                "name": "The strikethrough text",
+                "ttl": "The strikethrough text"
+            },
+            "exceptions": {
+                "name": "Exception",
+                "ttl": "Exception"
+            }
+        },
+        "displaynone": {
+            "example": {
+                "name": "display:none",
+                "ttl": "display:none highlighting"
+            },
+            "clr_bg_txt_and_img": {
+                "name": "Background colour",
+                "ttl": "Background colour"
+            },
+            "show_notification": {
+                "name": "Show the notification",
+                "ttl": "Show the notification"
+            },
+            "exceptions": {
+                "name": "Exception",
+                "ttl": "Exception"
+            }
+        },
+        "sponsored": {
+            "example": {
+                "name": "rel=\"sponsored\"",
+                "ttl": "Highlighting of SEO-tag rel=\"sponsored\""
+            },
+            "clr_bg_txt_and_img": {
+                "name": "Background colour",
+                "ttl": " Background colour"
+            },
+            "clr_brdr_txt": {
+                "name": "The colour of text frame",
+                "ttl": "ЦThe colour of text frame"
+            },
+            "cross_txt": {
+                "name": "The strikethrough text",
+                "ttl": "The strikethrough text"
+            },
+            "clr_brdr_img": {
+                "name": "The colour of pictures frame",
+                "ttl": "The colour of pictures frame"
+            }
+        },
+        "ugc": {
+            "example": {
+                "name": "rel=\"ugc\"",
+                "ttl": "Highlighting of SEO-tag rel=\"ugc\""
+            },
+            "clr_bg_txt_and_img": {
+                "name": "Background colour",
+                "ttl": " Background colour"
+            },
+            "clr_brdr_txt": {
+                "name": "The colour of text frame",
+                "ttl": "ЦThe colour of text frame"
+            },
+            "cross_txt": {
+                "name": "The strikethrough text",
+                "ttl": "The strikethrough text"
+            },
+            "clr_brdr_img": {
+                "name": "The colour of pictures frame",
+                "ttl": "The colour of pictures frame"
+            }
+        }
+    },
+    "options": {
+        "parameters": {
+            "IG": {
+                "name": "Index <span class=\"rds-blue\">G</span>",
+                "ttl": "G-index (.com) The number of website pages, that entered to the Google.com search index including subdomains"
+            },
+            "IGP": {
+                "name": "Index <span class=\"rds-blue\">G</span> page",
+                "ttl": "G-index of the page – Indexing and cache date of the given website page in Google"
+            },
+            "PR": {
+                "name": "PR",
+                "ttl": "PR — Google Page Rank Determination of the page",
+                "PRMain": "Google Page Rank of home page"
+            },
+            "Dmoz": {
+                "name": "Curlie",
+                "ttl": "Curlie – presence of the website in Curlie - the biggest international website-catalog."
+            },
+            "WA": {
+                "name": "WebArch",
+                "ttl": "WebArch – is the month and the year of the first log in WebArchive. It is the service that allows to see the age and the website history of development. Also it allows to download (recover) previous versions of the website."
+            },
+            "SeoM": {
+                "name": "SEOmoz",
+                "ttl": "Authority value of current page and the domain in SeoMoz base"
+            },
+            "Age": {
+                "name": "Age",
+                "ttl": "Minimal value on domain date registration or first log in web.archive.org. Data is taken from the recipdonor.com base."
+            },
+            "Subdomains": {
+                "name": "Subdomains",
+                "ttl": "The count of subdomains of the website according to RDS base. On clicking in shows the TIC sorted list."
+            },
+            "BackG": {
+                "name": "Back <span class=\"rds-blue\">G</span>oogle",
+                "ttl": "Back G – is the quantity of the most important external links  to the website in Google search engine (link:). Usually pages with great weight are shown and PR. Please, notice, that website pages are shown, not the website itself"
+            },
+            "BackBing": {
+                "name": "Back Bing",
+                "ttl": "Back Bing – Backlinks according to Bing"
+            },
+            "IBing": {
+                "name": "Index Bing",
+                "ttl": "Индекс Bing – Number of website pages got to Bing search index including subdomains"
+            },
+            "BI": {
+                "name": "Bing out",
+                "ttl": "Bing out – is the number of internal links from the website in Bing search engine (linkfromdomain:)"
+            },
+            "Alexa": {
+                "name": "Alexa",
+                "ttl": "Alexa – is the rating of Alexa traffic, based on data received from the users, that use Alexa Toolbar. The less number the less traffic"
+            },
+            "BackA": {
+                "name": "Back Alexa",
+                "ttl": "Back Alexa - Backlinks according to Alexa"
+            },
+            "Majestic": {
+                "name": "MJ",
+                "ttl": "MJ – Number of external links to the website in MajesticSeo.com"
+            },
+            "CF": {
+                "name": "Citation Flow",
+                "ttl": "Citation Flow - Number of predicting how influential a URL might be based on how many sites link to it"
+            },
+            "TF": {
+                "name": "Trust Flow",
+                "ttl": "Trust Flow - Number predicting how trustworthy a page is based on how trustworthy sites tend to link to trustworthy neighbors"
+            },
+            "AhrefsTB": {
+                "name": "Ahrefs",
+                "ttl": "Ahrefs rank, backlinks, reffering domains."
+            },
+            "AhrefsPage": {
+                "name": "Ahrefs Page",
+                "ttl": "Ahrefs рage rank, backlinks, reffering domains."
+            },
+            "AhrefsDomain": {
+                "name": "Ahrefs Domain",
+                "ttl": "Ahrefs domain rank, backlinks, reffering domains."
+            },
+            "SimilarWeb": {
+                "name": "SimilarWeb",
+                "ttl": "SimilarWeb."
+            },
+            "LIO": {
+                "name": "Links in/out",
+                "ttl": "Links(in/out)- are internal (unique) or inbound (except rel=\"nofollow\", noscript, textarea, subdomains) links of  current page."
+            },
+            "SocialNetworks": {
+                "name": "Social Networks",
+                "ttl": "Recommendations on social networking site Google +1, Facebook, Vkontakte, Twitter."
+            },
+            "StatHistory": {
+                "name": "Website Traffic",
+                "ttl": "Website Traffic - estimated website traffic by RDS. Traffic History"
+            },
+            "Counters": {
+                "name": "Statistics",
+                "ttl": "Statistics – is the website registration check in the most popular systems of website statistics. Their availability for unauthorized users. Traffic value for the last 24 hours or for the previous day."
+            },
+            "APICounters": {
+                "name": "Statistics",
+                "ttl": "Statistics – is the website registration check in the most popular systems of website statistics. Their availability for unauthorized users. Traffic value for the last 24 hours or for the previous day."
+            },
+            "CheckDangerous": {
+                "name": "Dangerous",
+                "ttl": "Check for viruses on the website according to Yandex, Google and Webmoney.Advisor"
+            },
+            "Validation": {
+                "name": "Validator",
+                "ttl": "Validator – Check of validity of page make up according to validator.w3.org standards"
+            },
+            "RSS": {
+                "name": "RSS-feeds",
+                "ttl": "Availability of RSS-feeds"
+            },
+            "Robots": {
+                "name": "Robots",
+                "ttl": "Robots – Availability of robots.txt file in the website root"
+            },
+            "Nesting": {
+                "name": "Page nesting level",
+                "ttl": "Page nesting level"
+            },
+            "Sitemap": {
+                "name": "Sitemap.xml",
+                "ttl": "Sitemap – Sitemap - availability of sitemap.xml file in the website root"
+            },
+            "Pictures": {
+                "name": "Images <span class=\"rds-blue\">G</span>",
+                "ttl": "Images - Quantity of website pictures, that got to Google (.com) search index"
+            },
+            "SEOTags": {
+                "name": "SEO-tags",
+                "ttl": "Rapid analysis of SEO rates of the website and the webpage"
+            },
+            "EditMode": {
+                "name": "Spelling",
+                "ttl": "Spelling – is the spelling check on current page."
+            },
+            "MainPage": {
+                "name": "Home page",
+                "ttl": "Opening the home page of the current website in a new tab"
+            },
+            "ViewSource": {
+                "name": "Source code",
+                "ttl": "Browsing of the source code of the current page in a new tab. Analogue to Ctrl+U."
+            },
+            "DB": {
+                "name": "Data base",
+                "ttl": "Database manager"
+            },
+            "DisableHighlighting": {
+                "name": "Disable highlighting",
+                "ttl": "Disable highlighting"
+            },
+            "Options": {
+                "name": "Settings",
+                "ttl": "Settings of RDS bar"
+            },
+            "Trash": {
+                "name": "Clear cache",
+                "ttl": "Cache flush for current page"
+            },
+            "DisableAd": {
+                "name": "Disable ad",
+                "ttl": "Disable ad"
+            },
+            "SiteAnalysis": {
+                "name": "Website analysis",
+                "ttl": "Rapid analysis of SEO rates of the website and the webpage."
+            },
+            "options": {
+                "api": {
+                    "ttl": "Choose a way to get data:",
+                    "IG": "Standard with Google Search",
+                    "IGP": "Standard with Google Search",
+                    "PR": "Standard with Google Search",
+                    "BackG": "Standard with Google Search",
+                    "with_api": "API Recipdonor.com",
+                    "indexation_date": "Caching date"
+                },
+                "PR": {
+                    "PRMain": "Show simultaneously in brackets the Home page PR",
+                    "PRg": "Check for Fake PR pages with non-zero value"
+                },
+                "IG": {
+                    "domain_zone": "Choice of Google domain zone"
+                },
+                "Alexa": {
+                    "RegionalRank": "Regional Alexa Rank"
+                },
+                "SemRush": {
+                    "semrush_zone": "Choice of the domain zone"
+                },
+                "AhrefsTB": {
+                    "Page": "Page",
+                    "Domain": "Domain"
+                },
+                "SimilarWeb": {
+                    "Visits": "Monthly Traffic Reach",
+                    "TimeOnSite": "Time on Site",
+                    "PagePerVisit": "Page Views",
+                    "BounceRate": "Bounce Rate",
+                    "CountryShares": "Top Referring Countries",
+                    "Sources": "Traffic Sources",
+                    "Referrals": "Refferals",
+                    "Referring": "Leading Referring Sites:\u0020",
+                    "Destinations": "Leading Destination Sites:\u0020",
+                    "OrganicKeywords": "Organic Keywords"
+                },
+                "LIO": {
+                    "ttl": "Ignore links:",
+                    "noindex": "in noindex",
+                    "rel_nofollow": "rel=\"nofollow\"",
+                    "subdomains": "to subdomains"
+                },                
+                "SocialNetworks": {
+                    "GooglePlus": "Google +1",
+                    "Facebook": "Facebook",
+                    "Twitter": "Twitter",
+                    "VK": "VKontakte"
+                },
+                "StatHistory": {
+                    "check_always": "Check automatically"
+                },
+                "SEOTags": {
+                    "ttl": "SEO-tags",
+                    "_title": "Title",
+                    "description": "Description",
+                    "keywords": "Keywords",
+                    "h1": "H1",
+                    "h2_h4": "H2-H4",
+                    "canonical": "Canonical",
+                    "metaRobots": "The contents of the tag name =\"robots\" for the current page."
+                },
+                "SiteAnalysis": {
+                    "ttl": "Parameters:"
+                },
+                "APIParameters": {
+                    "Seo": "SEO",
+                    "Host": "Host",
+                    "Provider": "Provider",
+                    "Geo": "Geo",
+                    "CheckDangerous": "Dangerous",
+                    "Age": "Age"
+                },
+                "disable_ad_coins": {
+                    "ttl": "Disable ad for 1 day: The cost is"
+                },
+                "coins": {
+                    "ttl": "The cost of one test"
+                },
+                "exceptions": {
+                    "ttl": "Exceptions"
+                },
+                "CopyResults": {
+                    "res_ttl": "Title",
+                    "res_desc": "Description",
+                    "res_url": "URL"
+                }
+            }
+        },
+        "google": {
+          "urls_to_check": "Analyse the first ",
+          "functions": {
+                "ttl": "Functions",
+              "Enable" : {
+                  "name": "Enable / Disable",
+                  "ttl": "Enable / Disable G search integration"
+              },
+                "SiteAnalysis": {
+                    "name": "Website analysis",
+                    "ttl": "Rapid analysis of SEO rates of the website and the webpage."
+                },
+                "FullURL" : {
+                    "name": "Full URL",
+                    "ttl": "Displays the full page url, if it is cut or changed in Google search results"  
+                },
+                "DisableAdv" : {
+                    "name": "Disable ads",
+                    "ttl": "Hides advertisements in Google search results"  
+                },
+              "CopyResults" : {
+                  "name": "Copy results (CTRL+SHIFT+Y)",
+                  "ttl": "CTRL+SHIFT+Y Copy to clipboard the results from the current search page"
+              }
+          },
+          "ttl": "Google search"
+        },
+        "html": {
+            "highlighting_on": {
+                "name": "Highlighting",
+                "ttl": "Activate selected highlighting on webpages"
+            },
+             "nofollow": "rel=\"nofollow\"",
+             "sponsored": "rel=\"sponsored\"",
+             "ugc": "rel=\"ugc\"",
+             "canonical": "rel=\"canonical\"",
+             "robots": "name=\"robots\"",
+             "outerlinks": "External links",
+             "displaynone": "display:none"
+        },
+        "view": {
+            "bar_ttl": "Displaying of elements",
+            "search_ttl": "Search",
+            "google_search_ttl": "<span class=\"rds-blue\">G</span>. Search",
+            "highlight_ttl": "Highlighting the page",
+            "add_opt_ttl": "Add. settings",
+            "button": {
+                "default": "Reset to default",
+                "disable_api": "Disable paid services",
+                "clean_cache": "Drop cache",
+                "save": "Apply",
+                "cancel": "Cancel",                
+                "support": "Support"
+            },
+            "title": "RDS bar options",
+            "big_tabs": {
+                "parameters": "Parameters",
+                "search": "Search",
+                "html": "Highlighting",
+                "integrations": "Intergation",
+                "extra": "Add. settings",
+                "support": "Support"
+            },
+            "in_progress": "In development...",
+            "bar_version": "RDS bar Version",
+            "bar_new_version": "New version is available",
+            "parameters_ttl": "PARAMETERS",
+            "functions_ttl": "FUNCTIONS"
+        },
+        "position": {
+            "on": "Show bar",
+            "lt": "Top left",
+            "rt": "Top right",
+            "lb": "Bottom left",
+            "rb": "Bottom right"
+        },
+        "italic": {
+            "header": "Cache values displaying",
+            "name": "Italic font of cache values",
+            "ttl": "Display cache data in the inclined font"
+        },
+        "language": {
+            "header": "Language"
+        },
+        "extra": {
+            "by_button": {
+                "ttl": "Check mode",
+                "normal": "Standard",
+                "by_button": "By button"
+            }     
+        },
+        "support": {            
+            "support_ttl": "Support Wizard will help you to report a problem with RDS bar",
+            "support_problem_option0": "Please specify the intended subject of the message:",
+            "support_problem_option1": "Error in the determination of some parameters",
+            "support_problem_option2": "Error in plugin general",
+            "support_problem_option3": "The addition of new features or parameters",
+            "support_problem_option4": "Proposal for cooperation and advertising",
+            "support_comment": "Add your comment to help us quickly correct the error",
+            "support_page_url": "URL for the page where the error occurred:",
+            "support_screenshot_url": "URL screenshot of the screen with the error:",
+            "support_email": "E-mail address: *",
+            "support_addons_list": " Attach the list of installed extensions and plugins",
+            "support_send": "Send",
+            "support_ok": "Message sent successfully, we're going to answer it."
+        }
+    },
+    "context_menu": {
+        "mass_checking": "Mass checking of parameters",
+        "toggle_bar": "Show/hide RDS Bar"
+    },
+    "locale": "en",
+    "yes": "Yes",
+    "no": "No",
+    "glued": "Fake",
+    "glue": "glue",
+    "api_off": "API 0FF",
+    "bunkrupt": "Balance 0$",
+    "author": "Author.",
+    "no_data": "no data",
+    "unknown": "Unknown",
+    "ags": "АГС",
+    "months": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ],
+    "now": "Now",
+    "minute_ago": "Minute ago",
+    "hour_ago": "Hour ago",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "day_before_yesterday": "Day before yesterday",
+    "minutes": {
+        "nom": "minute",
+        "gen": "minute",
+        "plu": "minutes"
+    },
+    "hours": {
+        "nom": "hour",
+        "gen": "hour",
+        "plu": "hours"
+    },
+    "notes": {
+        "nom": "note",
+        "gen": "notes",
+        "plu": "notes"
+    },
+    "ago": " ago",
+    "no_access": "no access",
+    "isset": "Yes",
+    "dom": "dom.",
+    "more": "more",
+    "notification": {
+       "exception_domain": " All of the pages are excluded from inspection under this parameter. \n List of sites-exceptions can be edited in the ",
+       "google": "RDS bar improves functionality of Google Search helping to obtain information about any site for a wide range of parameters such as PR, DMOZ, Google index, Alexa and many others. You can disable all changes in the RDS bar ",
+       "options": "options",
+       "good_day": ". Have a good day.",
+       "displaynone": "You can disable <span class=\"rds-notification-displaynone\">display:none</span> highlighting in RDS bar <a class=\"rds-notification-options\">settings</a>.",
+       "checkdangerous": "According to <a class=\"rds-notification-link yandex\">Yandex</a> <a class=\"rds-notification-link google\">Google</a> <a class=\"rds-notification-link webmoneyadvisor\">Webmoney.Advisor</a> <a class=\"rds-notification-link virustotal\">VirusTotal</a> this website can be dangerous for your computer.",
+       "do_not_show_again": "Don't show again"  
+    }
+}

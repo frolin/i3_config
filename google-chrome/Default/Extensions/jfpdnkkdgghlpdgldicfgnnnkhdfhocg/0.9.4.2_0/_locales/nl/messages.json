@@ -1,0 +1,203 @@
+{
+   "conf_enable": {
+      "message": "Zet  aan"
+   },
+   "conf_none": {
+      "message": "Geen"
+   },
+   "conf_notsaved": {
+      "message": "Is niet opgeslagen"
+   },
+   "conf_save": {
+      "message": "Opslaan"
+   },
+   "conf_saved": {
+      "message": "Is opgeslagen"
+   },
+   "conf_setdefault": {
+      "message": "Standaard instelling"
+   },
+   "ext_description": {
+      "message": "Spelling controle voor Chrome . Het is makkelijk en snel. Deze extensie ondersteunt  12 talen"
+   },
+   "ext_name": {
+      "message": "Spell Checker for Chrome"
+   },
+   "locale": {
+      "message": "nl"
+   },
+   "msg_add": {
+      "message": "Toevoegen"
+   },
+   "msg_addtouserdic": {
+      "message": "Voeg toe aan gebruikers woordenboek"
+   },
+   "msg_areyousure": {
+      "message": "Weet je het zeker"
+   },
+   "msg_autoclosewin": {
+      "message": "Sluit dit scherm automatisch"
+   },
+   "msg_autoclosewindesc": {
+      "message": "Sluit dit scherm automatisch na de bewerking"
+   },
+   "msg_autocorrection": {
+      "message": "Auto correctie"
+   },
+   "msg_change": {
+      "message": "Bewerk"
+   },
+   "msg_changeall": {
+      "message": "Bewerk alles"
+   },
+   "msg_changealldesc": {
+      "message": "Bewerk alles van dezelfde bron"
+   },
+   "msg_changecolor": {
+      "message": "Bewerkt woord kleur"
+   },
+   "msg_close": {
+      "message": "Sluiten"
+   },
+   "msg_color": {
+      "message": "Kleur"
+   },
+   "msg_contextmenu": {
+      "message": "Chrome context menu"
+   },
+   "msg_copyclipboard": {
+      "message": "Tekst was gekopieerd van klipbord"
+   },
+   "msg_copytext": {
+      "message": "Kopieer tekst"
+   },
+   "msg_correctcolor": {
+      "message": "Gecorrigeerd woord kleur"
+   },
+   "msg_current": {
+      "message": "Huidig"
+   },
+   "msg_delete": {
+      "message": "Verwijder"
+   },
+   "msg_deletefromuserdic": {
+      "message": "Verwijder vna gebruikers woordenboek"
+   },
+   "msg_desc": {
+      "message": "Laat beschrijving zien"
+   },
+   "msg_edit": {
+      "message": "Bewerk"
+   },
+   "msg_error": {
+      "message": "een fout is opgetreden"
+   },
+   "msg_first": {
+      "message": "Het is het eerste"
+   },
+   "msg_gospellcheck": {
+      "message": "Start! spelling controle"
+   },
+   "msg_last": {
+      "message": "Het is het laatste"
+   },
+   "msg_load": {
+      "message": "Laden"
+   },
+   "msg_loadcomplete": {
+      "message": "Heeft de informatie geladen"
+   },
+   "msg_manual": {
+      "message": "Met de hand"
+   },
+   "msg_maxwidth": {
+      "message": "Maximale breedte van het spelling controle gebied"
+   },
+   "msg_maxword": {
+      "message": "Meer dan %s karakters is afgekort"
+   },
+   "msg_next": {
+      "message": "Volgende"
+   },
+   "msg_nodata": {
+      "message": "Geen data"
+   },
+   "msg_noinput": {
+      "message": "Geen data ingevoerd"
+   },
+   "msg_notfound": {
+      "message": "Spelling controle afgerond, er waren geen spelling fouten"
+   },
+   "msg_notselected": {
+      "message": "Er is geen keuze"
+   },
+   "msg_open_current": {
+      "message": "Open in huidige tab"
+   },
+   "msg_open_existtab": {
+      "message": "Open in bestaande nieuwe tab"
+   },
+   "msg_open_newtab": {
+      "message": "Open in nieuwe tab"
+   },
+   "msg_open_newwindow": {
+      "message": "Open in nieuw scherm"
+   },
+   "msg_open_poswindow": {
+      "message": "Open in positie scherm"
+   },
+   "msg_openeditwindow": {
+      "message": "Open bewerk sherm"
+   },
+   "msg_opennewtablast": {
+      "message": "Creëer een nieuwe tab aan de rechter kant"
+   },
+   "msg_opentype": {
+      "message": "Spelling controle opentype"
+   },
+   "msg_option": {
+      "message": "Optie"
+   },
+   "msg_prev": {
+      "message": "Vorige"
+   },
+   "msg_ratedesc": {
+      "message": "Als je het leuk vind dan zou ik het leuk vinden om het te waarderen met  5 sterren en je vrienden te vertellen hoe goed dit is"
+   },
+   "msg_ratethisitem": {
+      "message": "Waardeer deze extensie"
+   },
+   "msg_shortcut": {
+      "message": "snel koppeling"
+   },
+   "msg_sort": {
+      "message": "Sorteer"
+   },
+   "msg_source": {
+      "message": "Bron"
+   },
+   "msg_spellanalysis": {
+      "message": "Spelling controle analyse"
+   },
+   "msg_spellcheck": {
+      "message": "Spelling controle"
+   },
+   "msg_stop": {
+      "message": "Stop"
+   },
+   "msg_suggest": {
+      "message": "Suggestie"
+   },
+   "msg_suggestedlang": {
+      "message": "Suggested language"
+   },
+   "msg_unsort": {
+      "message": "Stop sorteren"
+   },
+   "msg_userdictionary": {
+      "message": "Gebruikers woordenboek"
+   },
+   "msg_wait": {
+      "message": "Wachten"
+   }
+}

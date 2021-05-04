@@ -1,0 +1,584 @@
+[
+    {
+        "id": "wqitem.jd.com",
+        "name": "京喜智能脚本",
+        "version": "1.0.4",
+        "description": "一键下载京喜网站商品图片",
+        "reg": "wqitem.jd.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/wqitem.jd.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/wqitem.jd.com.ico"
+    },
+    {
+        "id": 1,
+        "name": "京东智能脚本",
+        "version": "1.9.46",
+        "description": "智能提取京东详情页面商品相关大图及视频",
+        "reg": "item.jd.(com|hk)",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/jd.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/jd.ico",
+        "extras": [
+            {
+                "title": "下载评论",
+                "fun": "downloadMJX"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "唯品会智能脚本",
+        "version": "1.4.6",
+        "description": "智能提取唯品会商品相关大图",
+        "reg": "vip.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/vip.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/vip.ico"
+    },
+    {
+        "id": 3,
+        "name": "1688智能脚本",
+        "version": "1.16.9",
+        "description": "智能提取1688详情页面商品相关大图及视频",
+        "reg": "1688.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/1688.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/1688.ico"
+    },
+    {
+        "id": "jinritemai.com",
+        "name": "今日特卖（抖音）脚本",
+        "version": "1.0.7",
+        "description": "一键下载商品图片",
+        "reg": "haohuo.jinritemai.com/views/product/(detail|item)",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/jinritemai.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/jinritemai.com.ico"
+    },
+    {
+        "id": 4,
+        "name": "mp.weixin.qq.com智能脚本",
+        "version": "1.3.6",
+        "description": "下载 mp.weixin.qq.com 下的文章内容中的图片，启用改脚本后“显示编号”功能将失效",
+        "reg": "mp.weixin.qq.com/s",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/mpweixin.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/wx.ico"
+    },
+    {
+        "id": 5,
+        "name": "toomics智能脚本",
+        "version": "1.6.3",
+        "description": "下载漫画正文内容的图片",
+        "reg": "toomics.com|toomics.site|toomics.net",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/toomics.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/toomics.ico"
+    },
+    {
+        "id": "toomics.com",
+        "name": "toomics智能脚本",
+        "version": "1.6.1",
+        "description": "下载漫画正文内容的图片",
+        "reg": "toomics.com|toomics.site|toomics.net",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/toomics.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/toomics.ico"
+    },
+    {
+        "id": 6,
+        "name": "腾讯动漫智能脚本",
+        "version": "1.6",
+        "description": "下载漫画正文内容的图片",
+        "reg": "ac.qq.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/acqq.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/acqq.ico"
+    },
+    {
+        "id": 7,
+        "name": "Amazon Script",
+        "version": "1.5.19",
+        "description": "Download Images of the currrent product",
+        "reg": "www.amazon\\.",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/amazon.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/amazon.ico"
+    },
+    {
+        "id": 8,
+        "name": "花瓣网智能脚本",
+        "version": "1.1.1",
+        "description": "花瓣网智能脚本",
+        "reg": "meiwu.co|huaban.com|huabanpro.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/huaban.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/huaban.ico"
+    },
+    {
+        "id": 9,
+        "name": "yupoo网智能脚本",
+        "version": "1.2.2",
+        "description": "yupoo网智能脚本",
+        "reg": "yupoo.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/yupoo.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/yupoo.ico"
+    },
+    {
+        "id": 10,
+        "name": "Script for www.wish.com",
+        "version": "1.4",
+        "description": "Script for www.wish.com",
+        "reg": "www.wish.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/wish.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/wish.png"
+    },
+    {
+        "id": 11,
+        "name": "Script for Aliexpress",
+        "version": "1.5.11",
+        "description": "Script for Aliexpress",
+        "reg": "aliexpress\\.",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/aliexpress.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/aliexpress.ico"
+    },
+    {
+        "id": 12,
+        "name": "Script for trgomania.com",
+        "version": "1.1",
+        "description": "Script for trgomania.com",
+        "reg": "trgomania.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/trgomania.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/trgomania.ico"
+    },
+    {
+        "id": 13,
+        "name": "Script for toptoon.net",
+        "version": "1.8.30",
+        "description": "Script for toptoon.net，需要滚动到页面底部才可以下载全部图片",
+        "reg": "toptoon.net",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/toptoon.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/toptoon.png"
+    },
+    {
+        "id": 14,
+        "name": "Script for Airbnb",
+        "version": "1.0",
+        "description": "Script for Airbnb，只下载商品相关的图片",
+        "reg": "\\.airbnb\\.",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/airbnb.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/airbnb.ico"
+    },
+    {
+        "id": 15,
+        "name": "Script for booking.com",
+        "version": "1.1",
+        "description": "Script for booking.com，只下载商品相关的图片",
+        "reg": "\\.booking\\.",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/booking.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/booking.ico"
+    },
+    {
+        "id": 16,
+        "name": "Script for ctrip.com",
+        "version": "1.3",
+        "description": "Script for ctrip.com，只下载商品相关的图片",
+        "reg": "hotels.ctrip.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/ctrip.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/ctrip.ico"
+    },
+    {
+        "id": 17,
+        "name": "Script for agoda.com",
+        "version": "1.6",
+        "description": "Script for agoda.com, 点击\"查看所有图片\"后可以抓取酒店相关图片",
+        "reg": "www.agoda.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/agoda.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/agoda.ico"
+    },
+    {
+        "id": 18,
+        "name": "Script for uootu.com",
+        "version": "1.0",
+        "description": "Script for uootu.com",
+        "reg": "www.uootu.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/uootu.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/uootu.png"
+    },
+    {
+        "id": 19,
+        "name": "百度图片脚本",
+        "version": "1.1.2",
+        "description": "百度图片脚本，自动下载大图",
+        "reg": "image.baidu.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/baidu.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/baidu.ico"
+    },
+    {
+        "id": 20,
+        "name": "Script for Google Image",
+        "version": "1.2.18",
+        "description": "Script for Google Image，自动下载大图",
+        "reg": "www\\.google\\..*/search\\?",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/google.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/google.png"
+    },
+    {
+        "id": 21,
+        "name": "Script for Pinterest",
+        "version": "1.9.2",
+        "description": "Script for Pinterest",
+        "reg": "^https?:\/\/www.pinterest",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/pinterest.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/pinterest.png"
+    },
+    {
+        "id": 22,
+        "name": "淘宝网智能脚本",
+        "version": "1.3.19",
+        "description": "一键下载商品相关的图片和视频，一键下载评论中的嗮图",
+        "updateDesc": "添加了一键下载评论晒图",
+        "reg": "^https?:\/\/item.taobao.com|m.taobao.com/.*detail.htm",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/taobao.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/taobao.ico"
+    },
+    {
+        "id": 23,
+        "name": "天猫网智能脚本",
+        "version": "1.2.27",
+        "description": "一键下载商品相关的图片和视频，一键下载评论中的嗮图",
+        "updateDesc": "添加了一键下载评论晒图",
+        "reg": "detail.(m.)?(?:tmall|liangxinyao).(?:com|hk)",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/tmall.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/tmall.png"
+    },
+    {
+        "id": "traveldetail.fliggy.com",
+        "name": "飞猪智能脚本",
+        "version": "1.0.6",
+        "description": "一键下载商品相关的图片和视频，一键下载评论中的嗮图",
+        "reg": "fliggy.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/fliggy.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/fliggy.ico"
+    },
+    {
+        "id": 24,
+        "name": "爱回收智能脚本",
+        "version": "1.22",
+        "description": "爱回收列表页产品图片下载，并以产品名字命名图片",
+        "reg": "^https?:\/\/www.aihuishou.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/aihuishou.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/aihuishou.ico"
+    },
+    {
+        "id": 25,
+        "name": "yande.re",
+        "version": "1.6.9",
+        "description": "下载yande.re原图",
+        "reg": "^https?:\/\/yande.re",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/yande.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/yande.ico"
+    },
+    {
+        "id": 26,
+        "name": "sankakucomplex",
+        "version": "1.5.6",
+        "description": "下载sankakucomplex原图",
+        "reg": "^https?:\/\/beta.sankakucomplex.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/sankakucomplex.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/sankakucomplex.ico"
+    },
+    {
+        "id": 28,
+        "name": "搜款网单商品图片下载",
+        "version": "1.0.9",
+        "description": "搜款网单商品图片下载",
+        "reg": "www.vvic.com/item/",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/vvic-item.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/vvic.ico"
+    },
+    {
+        "id": 30,
+        "name": "拼多多智能脚本",
+        "version": "1.1.30",
+        "description": "一键下载拼多多商品相关图片及视频，一键下载评论晒图，如果图片不全可以尝试去掉设置里面的去重",
+        "reg": "yangkeduo.com/(goods\\d?.html|goods_comments.html)|pinduoduo.com\\/goods.html\\?.*goods_id=\\d+",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/pinduoduo.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/pinduoduo.png"
+    },
+    {
+        "id": "mms.pinduoduo",
+        "name": "拼多多聊天窗口智能脚本",
+        "version": "1.0.9",
+        "description": "一键下载拼多多聊天窗口内的图片",
+        "reg": "mms.pinduoduo.com/chat-merchant/index.html|mms.pinduoduo.com/chat-windows/index.html",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/mms.pinduoduo.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/pinduoduo.png"
+    },
+    {
+        "id": 31,
+        "name": "微博智能脚本",
+        "version": "1.0.0",
+        "description": "只下载九宫格的图片",
+        "reg": "weibo.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/weibo.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/weibo.ico"
+    },
+    {
+        "id": 32,
+        "name": "SMART SCRIPT for BING IMAGES",
+        "version": "1.0.3",
+        "description": "智能提取搜索结果中的大图",
+        "reg": "(cn|www).bing.com/images/search",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/bing.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/bing.ico"
+    },
+    {
+        "id": 33,
+        "name": "CNU视觉联盟",
+        "version": "1.0.2",
+        "description": "不需要滚动到底部就可以下载全部图片",
+        "reg": "www.cnu.cc/works/\\d+",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/cnu.cc.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/cnu.cc.ico"
+    },
+    {
+        "id": "instagram.com",
+        "name": "INSTAGRAM SMART SCRIPT",
+        "version": "1.0.26",
+        "description": "",
+        "reg": "instagram.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/instagram.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/instagram.ico",
+        "funlist": [
+            {
+                "funId": "add-download-btn",
+                "desc": "Show a download button for images and videos",
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "id": "tu.heiguang.com",
+        "name": "黑光图库智能脚本",
+        "version": "1.0.0",
+        "description": "一键下载主图",
+        "reg": "tu.heiguang.com/works/show_\\d+\\.html",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/tu.heiguang.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/tu.heiguang.com.ico"
+    },
+    {
+        "id": "tuchong.com",
+        "name": "图虫智能脚本",
+        "version": "1.0.1",
+        "description": "一键下载主图",
+        "reg": "tuchong.com/\\d+/\\d+/|.+\\.tuchong\\.com/\\d+",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/tuchong.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/tuchong.com.ico"
+    },
+    {
+        "id": "www.poco.cn",
+        "name": "POCO图片智能脚本",
+        "version": "1.0.0",
+        "description": "一键下载主图",
+        "reg": "www.poco.cn/works/detail",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/www.poco.cn.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/www.poco.cn.ico"
+    },
+    {
+        "id": "www.dhgate.com",
+        "name": "DHgate  智能脚本|Smart Script",
+        "version": "1.0.4",
+        "description": "一键下载主图、SKU图片、详情图片",
+        "reg": "www.dhgate.com/.*product",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/www.dhgate.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/www.dhgate.com.ico"
+    },
+    {
+        "id": "www.alibaba.com",
+        "name": "ALIBABA  智能脚本|Smart Script",
+        "version": "1.0.15",
+        "description": "一键下载主图、SKU图片、详情图片",
+        "reg": "www.alibaba.com/product-detail/|alibaba.com/product",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/alibaba.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/alibaba.ico"
+    },
+    {
+        "id": "youzan.com",
+        "name": "有赞 智能脚本|Smart Script",
+        "version": "1.0.4",
+        "description": "一键下载主图、SKU图片、详情图片",
+        "reg": "shop\\d+.youzan.com/v\\d+/goods|youzan.com.*/detail/",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/youzan.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/youzan.com.ico"
+    },
+    {
+        "id": "kaola.com",
+        "name": "考拉智能脚本",
+        "version": "1.0.3",
+        "description": "一键下载主图、SKU图片、详情图片",
+        "reg": "goods.kaola.com(.hk)?/product/\\d+.html",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/kaola.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/kaola.com.ico"
+    },
+    {
+        "id": "yandex.ru",
+        "name": "yandex.ru",
+        "version": "1.0.6",
+        "description": "一键下载所有，如有选中查看某个图片，一键下载选中图片的右侧相关图片",
+        "reg": "yandex.ru/images/search",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/yandex.ru.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/yandex.ru.ico"
+    },
+    {
+        "id": "www.tujia.com",
+        "name": "途家民宿智能脚本",
+        "version": "1.0.1",
+        "description": "一键下载所有房屋图片(需要先点击查看图片)",
+        "reg": "www.tujia.com/detail/\\d+.htm",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/tujia.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/tujia.com.ico"
+    },
+    {
+        "id": "www.kidsfootlocker.com",
+        "name": "Smart Script for kidsfootlocker.com",
+        "version": "1.0.1",
+        "description": "一键下载商品图片|Only download images about the product",
+        "reg": "www.kidsfootlocker.com/product",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/kidsfootlocker.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/kidsfootlocker.com.png"
+    },
+    {
+        "id": "zh.ifixit.com-store",
+        "name": "Smart Script for Ifixit Store",
+        "version": "1.0.7",
+        "description": "一键下载Ifixit Store商品图片",
+        "reg": "zh.ifixit.com/Store",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/ifixit.store.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/ifixit.png"
+    },
+    {
+        "id": "manga.bilibili",
+        "name": "哔哩哔哩漫画脚本",
+        "version": "1.0.4",
+        "description": "一键下载哔哩哔哩漫画, 需要将页面滚动到底部才可以下载所有图片",
+        "reg": "manga.bilibili.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/bilibili.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/bilibili.ico"
+    },
+    {
+        "id": "manhua.dmzj.com",
+        "name": "动漫之家漫画脚本",
+        "version": "1.0.19",
+        "description": "一键下载整章节所有漫画",
+        "reg": "(www|manhua).dmzj1?.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/manhua.dmzj.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/manhua.dmzj.com.ico"
+    },
+    {
+        "id": "pop-fashion.com",
+        "name": "POP服装趋势智能脚本",
+        "version": "1.0.2",
+        "description": "一键下载页面上的所有高清大图",
+        "reg": "www.pop-fashion.com/details/report|www.popfashioninfo.com/details",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/pop-fashion.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/pop-fashion.ico"
+    },
+    {
+        "id": "haohaozhu.cn",
+        "name": "好好住-智能脚本",
+        "version": "1.0.0",
+        "description": "下载图片及视频",
+        "reg": "haohaozhu.cn/tupian",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/haohaozhu.cn.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/haohaozhu.cn.ico"
+    },
+    {
+        "id": "www.konami.com",
+        "name": "konami智能脚本｜Script for Konami",
+        "version": "1.0.7",
+        "description": "一键下载所有大图",
+        "reg": "www.konami.com/yugioh/duel_links/",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/www.konami.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/www.konami.com.ico"
+    },
+    {
+        "id": "www.techuangyi.com",
+        "name": "特创意智能脚本",
+        "version": "1.0.1",
+        "description": "一键下载所有大图",
+        "reg": "www.techuangyi.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/www.techuangyi.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/www.techuangyi.com.ico"
+    },
+    {
+        "id": "book.yunzhan365.com",
+        "name": "云展网智能脚本",
+        "version": "1.0.3",
+        "description": "一键整本书",
+        "reg": "yunzhan365.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/book.yunzhan365.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/book.yunzhan365.com.ico"
+    },
+    {
+        "id": "62591.mofa.ht",
+        "name": "奥新直邮正品智能脚本",
+        "version": "1.0.3",
+        "description": "一键主图及详情图",
+        "reg": "62591.mofa.ht/catalog/product/",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/62591.mofa.ht.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/62591.mofa.ht.ico"
+    },
+    {
+        "id": "poshmark.com",
+        "name": "Poshmark脚本 ｜ Script for Poshmark",
+        "version": "1.0.2",
+        "description": "一键商品大图",
+        "reg": "poshmark.com/listing",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/poshmark.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/poshmark.ico"
+    },
+    {
+        "id": "www.farfetch.cn",
+        "name": "farfetch发发奇 - 智能脚本",
+        "version": "1.0.1",
+        "description": "一键下载商品图片",
+        "reg": "www.farfetch.cn",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/farfetch.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/farfetch.webp"
+    },
+    {
+        "id": "hathitrust",
+        "name": "hathitrust智能脚本｜ Script for hathitrust",
+        "version": "1.0.2",
+        "description": "一键下载整本图书 ｜ Download whole book",
+        "reg": "hathitrust.org",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/hathitrust.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/hathitrust.ico"
+    },
+    {
+        "id": "shein.com",
+        "name": "SHEIN智能脚本｜ Script for SHEIN",
+        "version": "1.0.5",
+        "description": "一键下载商品图片 ｜ Only Download Product Images",
+        "reg": "shein.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/shein.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/shein.ico"
+    },
+    {
+        "id": "konachan.wjcodes.com",
+        "name": "KONACHAN智能脚本｜ konachan.wjcodes.com",
+        "version": "1.0.7",
+        "description": "一键下载KONACHAN动漫高清大图",
+        "reg": "konachan.wjcodes.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/konachan.wjcodes.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/konachan.wjcodes.com.ico"
+    },
+    {
+        "id": "360msl.com",
+        "name": "名师联智库智能脚本｜ 360msl.com",
+        "version": "1.0.1",
+        "description": "打包下载高清大图",
+        "reg": "360msl.com/article-view-\\d+.htm",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/360msl.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/360msl.com.ico"
+    },
+    {
+        "id": "ygo.163.com",
+        "name": "游戏王",
+        "version": "1.0.6",
+        "description": "卡片图片下载",
+        "reg": "ygo.163.com",
+        "url": "http://fatkun.static.8fenxiang.com/aiscripts2/ygo.163.com.js",
+        "ico": "http://fatkun.static.8fenxiang.com/aiscripts2/ygo.163.com.ico"
+    }
+]

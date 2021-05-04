@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "indicator.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "An indicator button for HTTP/2, SPDY and QUIC support by each website.",
+   "icons": {
+      "128": "icon.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDxUjfgqHSLhoBbmnaa1w2m3vFwhLjZvyMOcjAtHT93/SUS5gJRamDfEigbh6BlbIqfowLokQYBhNm2NQGXUfyNvL1+tC8gsbBDEfzwInz6Fn407nvisko/8Eyitv531lXFZn9r8jEX+c3wZC2OPgcp7Y1SvWF96Ngxp5yqk8zeAQIDAQAB",
+   "manifest_version": 2,
+   "name": "HTTP/2 and SPDY indicator",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": {
+         "19": "icon-default.png",
+         "38": "icon-default-scale2.png"
+      },
+      "default_title": "HTTP/2 and SPDY"
+   },
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0",
+   "web_accessible_resources": [ "options.js" ]
+}

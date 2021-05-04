@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+	<title>Platform Developer Tools</title>
+	<link href="css/popup.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  
+	<section class="debug">
+		<h1>Debug <div id="settingsicon" title="Options"><a href="#settings">Options</a></div></h1>
+		<div class="control" data-action="current">
+			<div class="inner">
+				<span class="title">This Page</span>
+				<div class="checkboxneutral"><span></span></div>
+			</div>
+		</div>
+		<div class="control" data-action="next">
+			<div class="inner">
+				<span class="title">Next Page</span>
+				<div id="debugnext" class="checkbox checkboxoff" data-offtext="off" data-ontext="on"><span>off</span></div>
+			</div>
+		</div>
+		<div class="control" data-action="start">
+			<div class="inner">
+				<span class="title">Get, Post</span>
+				<div id="debugall" class="checkbox checkboxoff" data-offtext="off" data-ontext="on"><span>off</span></div>
+			</div>
+		</div>
+		<div class="control" data-action="post">
+			<div class="inner">
+				<span class="title">Post Only</span>
+				<div id="debugpost" class="checkbox checkboxoff" data-offtext="off" data-ontext="on"><span>off</span></div>
+			</div>
+		</div>
+	</section>
+	
+    <script src="js/vendor/jquery-1.8.3.min.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/zend.js"></script>
+    <script src="js/popup.js"></script>
+	
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="11px" viewBox="0 0 16 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Atoms / Icons / Close / a.icon.delete Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.60850547,7.00166665 L15.0298338,7.00166665 C15.5655809,7.00166665 16.0004167,7.43974384 16.0004167,8.05473682 C16.0004167,8.6697298 15.5655809,9.10780699 15.0298338,9.10780699 L3.43362362,9.10780699 L5.69811059,11.4552484 C6.10396311,11.8748234 6.10396311,12.5554898 5.69811059,12.9750648 C5.49616465,13.1853602 5.2304979,13.29 4.96483115,13.29 C4.6991644,13.29 4.43349766,13.1853602 4.23155172,12.9750648 L0.304389391,8.90528913 C-0.10146313,8.48571416 -0.10146313,7.80403182 0.304389391,7.38445685 L4.23155172,3.31468123 C4.63642392,2.89510626 5.29323838,2.89510626 5.69811059,3.31468123 C6.10396311,3.7342562 6.10396311,4.41492262 5.69811059,4.83551351 L3.60850547,7.00166665 Z" id="path-1"></path>
+    </defs>
+    <g id="Settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Плагин---Настройки" transform="translate(-767.000000, -1827.000000)">
+            <g id="Journal" transform="translate(283.000000, 1786.000000)">
+                <g id="Settings" transform="translate(464.000000, 28.000000)">
+                    <g id="Header" transform="translate(0.000000, 8.000000)">
+                        <g id="Atoms-/-Icons-/-Arrows-/-a.icon.arrow.back" transform="translate(20.000000, 2.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="icon-back" fill="#1B6EBE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <g id="Atoms-/-Colours-/-Blue-/-a.colour.blue.b800" mask="url(#mask-2)" fill="#1B71BE" fill-rule="evenodd">
+                                <rect id="B-900" x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

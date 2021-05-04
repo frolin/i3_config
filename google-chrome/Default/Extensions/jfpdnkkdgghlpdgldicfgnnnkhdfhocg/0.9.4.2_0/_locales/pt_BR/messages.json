@@ -1,0 +1,200 @@
+{
+   "conf_enable": {
+      "message": "Ativar"
+   },
+   "conf_none": {
+      "message": "Nenhum"
+   },
+   "conf_notsaved": {
+      "message": "Não foi salvo"
+   },
+   "conf_save": {
+      "message": "Salvar"
+   },
+   "conf_saved": {
+      "message": "Foi salvo"
+   },
+   "conf_setdefault": {
+      "message": "Definir como padrão"
+   },
+   "ext_description": {
+      "message": "É fácil e rápido de usar. Esta extensão suporta 12 linguagens para verificações ortográficas."
+   },
+   "ext_name": {
+      "message": "Spell Checker for Chrome"
+   },
+   "locale": {
+      "message": "pt_BR"
+   },
+   "msg_add": {
+      "message": "Adicionar"
+   },
+   "msg_addtouserdic": {
+      "message": "Adicionar para dicionário do usuário"
+   },
+   "msg_areyousure": {
+      "message": "Tem certeza?"
+   },
+   "msg_autoclosewin": {
+      "message": "Fechar automaticamente esta janela."
+   },
+   "msg_autoclosewindesc": {
+      "message": "Fechar automaticamente esta janela, após mudanças."
+   },
+   "msg_autocorrection": {
+      "message": "auto-correção"
+   },
+   "msg_change": {
+      "message": "Trocar"
+   },
+   "msg_changeall": {
+      "message": "Trocar tudo."
+   },
+   "msg_changealldesc": {
+      "message": "Mudar tudo da mesma fonte"
+   },
+   "msg_changecolor": {
+      "message": "Cor da palavra trocada"
+   },
+   "msg_close": {
+      "message": "Fechar"
+   },
+   "msg_color": {
+      "message": "Cor"
+   },
+   "msg_contextmenu": {
+      "message": "Contexto menu do Chrome"
+   },
+   "msg_copyclipboard": {
+      "message": "O texto foi copiado."
+   },
+   "msg_copytext": {
+      "message": "Copie o texto"
+   },
+   "msg_correctcolor": {
+      "message": "Cor da palavra corrigida"
+   },
+   "msg_current": {
+      "message": "Atual"
+   },
+   "msg_delete": {
+      "message": "Deletar"
+   },
+   "msg_deletefromuserdic": {
+      "message": "Deletar do dicionário do usuário"
+   },
+   "msg_desc": {
+      "message": "Mostrar descrição"
+   },
+   "msg_edit": {
+      "message": "Editar"
+   },
+   "msg_error": {
+      "message": "Ocorreu um erro."
+   },
+   "msg_first": {
+      "message": "Esta é a primeira."
+   },
+   "msg_gospellcheck": {
+      "message": "Ir! Verificar ortográfia."
+   },
+   "msg_last": {
+      "message": "Esta é a ultima."
+   },
+   "msg_load": {
+      "message": "Carregar"
+   },
+   "msg_loadcomplete": {
+      "message": "Dados carregados."
+   },
+   "msg_manual": {
+      "message": "Manual"
+   },
+   "msg_maxwidth": {
+      "message": "Máxima largura da área do verificador de ortográfia."
+   },
+   "msg_maxword": {
+      "message": "Mais de %s caracteres é truncado."
+   },
+   "msg_next": {
+      "message": "Próxima"
+   },
+   "msg_nodata": {
+      "message": "Sem dados"
+   },
+   "msg_noinput": {
+      "message": "Sem dados inseridos."
+   },
+   "msg_notfound": {
+      "message": "Correção ortográfica completa. Não foi encontrado erros de ortográfia."
+   },
+   "msg_notselected": {
+      "message": "Não há escolha."
+   },
+   "msg_open_current": {
+      "message": "Abrir na guia atual."
+   },
+   "msg_open_existtab": {
+      "message": "Abrir em uma nova guia existente."
+   },
+   "msg_open_newtab": {
+      "message": "Abrir em uma nova guia"
+   },
+   "msg_open_newwindow": {
+      "message": "Abrir em uma nova janela"
+   },
+   "msg_open_poswindow": {
+      "message": "Abrir em uma posição da janela"
+   },
+   "msg_openeditwindow": {
+      "message": "Abrir janela de editar."
+   },
+   "msg_opennewtablast": {
+      "message": "Criar nova guia na posição direita mais distante"
+   },
+   "msg_opentype": {
+      "message": "Correção ortográfica OpenType."
+   },
+   "msg_option": {
+      "message": "Opções"
+   },
+   "msg_prev": {
+      "message": "Voltar"
+   },
+   "msg_ratedesc": {
+      "message": "Se você gostou, porque não avaliar com 5 estrelas e contar para seus amigos."
+   },
+   "msg_ratethisitem": {
+      "message": "Avalie esta extensão"
+   },
+   "msg_shortcut": {
+      "message": "Atalhos"
+   },
+   "msg_sort": {
+      "message": "Classifique"
+   },
+   "msg_source": {
+      "message": "Fonte"
+   },
+   "msg_spellanalysis": {
+      "message": "Análise de correção ortográfica"
+   },
+   "msg_spellcheck": {
+      "message": "Verificação ortográfica"
+   },
+   "msg_stop": {
+      "message": "Pare"
+   },
+   "msg_suggest": {
+      "message": "Sugerir"
+   },
+   "msg_unsort": {
+      "message": "Cancelar classificação"
+   },
+   "msg_userdictionary": {
+      "message": "Dicionário do usuário"
+   },
+   "msg_wait": {
+      "message": "Aguarde"
+   }
+}

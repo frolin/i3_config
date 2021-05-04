@@ -1,0 +1,30 @@
+{
+   "author": "Serpstat \u003Cserpstat.netpeak@gmail.com>",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/1.png",
+      "default_popup": "popup.html",
+      "default_title": "Serpstat"
+   },
+   "content_scripts": [ {
+      "css": [ "css/inject-styles.css" ],
+      "js": [ "js/contentScript.bundle.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "48": "img/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnJbg0kIg7ugs50JXGG/RIcDRPa4eeVUqKlOsW7HMktY7Na6Gybx7TD89NJbXVjmK4LPvOFsj6ok/3F9/kxx1R2lolkcYBbhLPLm4kxpBd6PZ1LQUoG+6bHGIOWMd1jThqwZ39J5ytbjV+rTIgVwghQKhnr19YrQs5/Vxji6dZqCD+vEyTjv3wPiususT4nAEST+Qx9Q/OYWsjvuzZpQ6R7JZ3DiZNoYAuBbBC7zgqUKp4axbakYadefCt23nheai+ljqThGSYtGQa+n0gCOkAhA5dwGuOEqGDVxDSv485RWnM8MX66UJDsnQhqZ+GfWbegbv7PtAGNiXQn1wkScyYwIDAQAB",
+   "manifest_version": 2,
+   "name": "Serpstat Website SEO Checker",
+   "permissions": [ "tabs", "storage", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.6.1.1",
+   "web_accessible_resources": [ "inject.html", "js/contentScript.bundle.js", "css/inject-styles.css" ]
+}

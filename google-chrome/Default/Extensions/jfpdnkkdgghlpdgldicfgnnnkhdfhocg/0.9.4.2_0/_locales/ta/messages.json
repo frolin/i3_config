@@ -1,0 +1,203 @@
+{
+   "conf_enable": {
+      "message": "உயிரூட்டு"
+   },
+   "conf_none": {
+      "message": "எதுவுமில்லை"
+   },
+   "conf_notsaved": {
+      "message": "சேமிக்கப்படவில்லை"
+   },
+   "conf_save": {
+      "message": "சேமி"
+   },
+   "conf_saved": {
+      "message": "சேமிக்கப்பட்டது"
+   },
+   "conf_setdefault": {
+      "message": "இயல்பிருப்பாக அமை"
+   },
+   "ext_description": {
+      "message": "குரோமிற்கான சொற் பிழை திருத்தி. இது பயன்படுத்த இலகுவானது வேகமானது. இந்த நீட்சி 12 மொழிகளில் சொற்பிழை திருத்த உதவுகின்றது."
+   },
+   "ext_name": {
+      "message": "Spell Checker for Chrome"
+   },
+   "locale": {
+      "message": "ta"
+   },
+   "msg_add": {
+      "message": "சேர்"
+   },
+   "msg_addtouserdic": {
+      "message": "Add to user dictionary"
+   },
+   "msg_areyousure": {
+      "message": "நீங்கள் உறுதியாக உள்ளீர்களா?"
+   },
+   "msg_autoclosewin": {
+      "message": "இந்த சாளரத்தை தானியங்கியாக மூடவும்"
+   },
+   "msg_autoclosewindesc": {
+      "message": "மாற்றத்தின் பின்னர் இந்த சாளரத்தை தானே மூடவும்"
+   },
+   "msg_autocorrection": {
+      "message": "கார் திருத்தம்"
+   },
+   "msg_change": {
+      "message": "மாற்று"
+   },
+   "msg_changeall": {
+      "message": "அனைத்தையும் மாற்று"
+   },
+   "msg_changealldesc": {
+      "message": "ஒரே மூலத்தைக் கொண்ட அனைத்தையும் மாற்று"
+   },
+   "msg_changecolor": {
+      "message": "மாறிய சொல்லின் நிறம்"
+   },
+   "msg_close": {
+      "message": "மூடு"
+   },
+   "msg_color": {
+      "message": "நிறம்"
+   },
+   "msg_contextmenu": {
+      "message": "குரோம் கெனடெக்ஸ்ட் பட்டியல்"
+   },
+   "msg_copyclipboard": {
+      "message": "Text was copied to the clipboard."
+   },
+   "msg_copytext": {
+      "message": "எழுத்தை ஓத்தி எடு"
+   },
+   "msg_correctcolor": {
+      "message": "சரியாக்கப்பட்ட சொல்லின் நிறம்"
+   },
+   "msg_current": {
+      "message": "தற்போதைய"
+   },
+   "msg_delete": {
+      "message": "நீக்கு"
+   },
+   "msg_deletefromuserdic": {
+      "message": "Delete from user dictionary"
+   },
+   "msg_desc": {
+      "message": "விளக்கம் காட்டு"
+   },
+   "msg_edit": {
+      "message": "திருத்தவும்"
+   },
+   "msg_error": {
+      "message": "பிழை ஏற்பட்டுள்ளது."
+   },
+   "msg_first": {
+      "message": "இது முதல்."
+   },
+   "msg_gospellcheck": {
+      "message": "சேல்! சொற்பிழை தேடு"
+   },
+   "msg_last": {
+      "message": "இது கடைசி."
+   },
+   "msg_load": {
+      "message": "ஏற்று"
+   },
+   "msg_loadcomplete": {
+      "message": "தரவு ஏற்றப்பட்டது"
+   },
+   "msg_manual": {
+      "message": "கைமுறை"
+   },
+   "msg_maxwidth": {
+      "message": "சொற்பிழை திருத்திக்கான அதி கூடிய அகலம்"
+   },
+   "msg_maxword": {
+      "message": " %s மேற்பட்ட எழுத்துக்கள் மாற்றப்பட்டன."
+   },
+   "msg_next": {
+      "message": "பின்"
+   },
+   "msg_nodata": {
+      "message": "தரவு இல்லை"
+   },
+   "msg_noinput": {
+      "message": "எந்த தரவும் உள்ளிடப்படவில்லை."
+   },
+   "msg_notfound": {
+      "message": "Spell check Completed. Spelling errors were not found."
+   },
+   "msg_notselected": {
+      "message": "தெரிவு செய்ய எதுவும் இல்லை."
+   },
+   "msg_open_current": {
+      "message": "புதிய தாவலில் திறக்குக"
+   },
+   "msg_open_existtab": {
+      "message": "இருக்கும் ஒரு தாவலில் திறக்குக"
+   },
+   "msg_open_newtab": {
+      "message": "புதிய தாவலில் திறக்குக"
+   },
+   "msg_open_newwindow": {
+      "message": "புதிய சாளரத்தில் திறக்குக"
+   },
+   "msg_open_poswindow": {
+      "message": "நிலை சாளரத்தில் திறக்குக"
+   },
+   "msg_openeditwindow": {
+      "message": "தொகுக்கும் சாளரத்தை திற"
+   },
+   "msg_opennewtablast": {
+      "message": "வலது மூலையில் புதிய தாவலைத் திறக்கவும்"
+   },
+   "msg_opentype": {
+      "message": "ஒபின் டைப் சொற்பிழை திருத்தி"
+   },
+   "msg_option": {
+      "message": "விருப்பங்கள்"
+   },
+   "msg_prev": {
+      "message": "முன்"
+   },
+   "msg_ratedesc": {
+      "message": "இது பிடித்திருந்தால் 5 நட்சத்திரம் கொடுத்து தரப்படுத்துவதுடன் நண்பர்களிற்கும் தெரிவியுங்கள்."
+   },
+   "msg_ratethisitem": {
+      "message": "இந்த நீட்சியின் தரத்தை நிர்ணயி"
+   },
+   "msg_shortcut": {
+      "message": "குறுக்கு வழிகள்"
+   },
+   "msg_sort": {
+      "message": "Sort"
+   },
+   "msg_source": {
+      "message": "மூலம்"
+   },
+   "msg_spellanalysis": {
+      "message": "சொற் பிழை ஆராய்ச்சி"
+   },
+   "msg_spellcheck": {
+      "message": "சொற் பிழை சரிபார்"
+   },
+   "msg_stop": {
+      "message": "நில்"
+   },
+   "msg_suggest": {
+      "message": "பரிந்துரை"
+   },
+   "msg_suggestedlang": {
+      "message": "Suggested language"
+   },
+   "msg_unsort": {
+      "message": "Cancel sort"
+   },
+   "msg_userdictionary": {
+      "message": "பயனர் அகராதி"
+   },
+   "msg_wait": {
+      "message": "பொறு"
+   }
+}

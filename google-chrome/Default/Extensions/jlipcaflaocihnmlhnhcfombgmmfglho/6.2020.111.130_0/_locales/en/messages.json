@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Handy tool for quick analysis of website and page SEO indicators, designed for webmasters and optimizers."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "RDS Bar"
+   }
+}

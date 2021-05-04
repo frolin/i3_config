@@ -1,0 +1,9 @@
+{
+   "description": "Plugin for Devtools. Adds a pane for jQuery data of selected dom element.",
+   "devtools_page": "devtools.html",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz2xZzEELVvPDwIBDx3lfIzEAULedH1a+pS2PdFCzcC0SZZYjmum+Z+cNr7YG4L3kXbSgqgpPVOiwoDH1vtDiFFIOpjlK1y6eSAtEEZMXzL6GQSo6zj94dz5UcTyRPIQC9lr6Zc8yBtAPJvR2NZavMERUzmVvVO/790Cm6jDrYAAShWAsGYXXi6kDTtrgSe3hjWbQX4IcwZrHXcWiAOHL3LPkxlqr0/mb04975zwuKRu4tMIbYK5/42OIrAHyhiOzmUCW53fvRWS19QcKsjnSDzY/te/cg48TWFfGSlP2iEPLZ16GQfdLxdUM40OY9WhKm3ByqG6EOZNoBAexwGrabQIDAQAB",
+   "manifest_version": 2,
+   "name": "jQuery Inspector",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

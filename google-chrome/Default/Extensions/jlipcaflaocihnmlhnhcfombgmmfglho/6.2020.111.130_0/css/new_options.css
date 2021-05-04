@@ -1,0 +1,658 @@
+img{
+vertical-align: middle;
+}
+a{
+color:#2497d7;
+}
+p{
+margin-top:0;
+}
+input[type=checkbox],
+input[type=radio] {
+    background: url(../icons/new_options/sprite.png) no-repeat;
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+	margin:0;
+}
+input[type=checkbox] {
+    background-position: 0 0;
+}
+input[type=checkbox]:checked {
+    background-position: 0 -16px;
+}
+input[type=checkbox]:disabled {
+    background-position: 0 -32px;
+}
+input[type=checkbox]:disabled:checked {
+    background-position: 0 -48px;
+}
+input[type=radio] {
+    background-position: -16px 0;
+}
+input[type=radio]:checked {
+    background-position: -16px -16px;
+}
+input[type=radio]:disabled {
+    background-position: -16px -32px;
+}
+input[type=radio]:disabled:checked {
+    background-position: -16px -48px;
+}
+input,select,textarea{
+box-sizing: border-box;
+}
+.checkbox,
+.radio{
+position: relative;
+min-height: 20px;
+padding-left: 20px;
+display:block;
+margin-bottom:3px;
+}
+.checkbox input,
+.radio input{
+position: absolute;
+margin-left: -20px;
+}
+.f-s-12{
+font-size:12px;
+}
+.f-s-13{
+font-size:13px;
+}
+.vertical-align-middle{
+vertical-align: middle;
+}
+.container,
+.container>div{
+width:734px;
+}
+.container{
+position:fixed;
+left:0;
+right:0;
+top:65px;
+margin:0 auto;
+font: 11px arial,sans-serif;
+color:#404040;
+max-height:100%;
+overflow-y: auto;
+}
+.container .sub-text{
+margin-top:20px;
+}
+.container .sub-text img{
+margin-bottom:5px;
+}
+.container .sub-text .update{
+display:inline-block;
+margin-left:25px;
+}
+.container>div{
+border-radius:5px;
+background:#eee;
+border:1px solid #d1d1d1;
+box-shadow:0 0 3px rgba(0,0,0,0.25);
+font-family: tahoma, arial,sans-serif;
+box-sizing: border-box;
+}
+.big-tabs{
+overflow:hidden;
+}
+.big-tabs>.big-tab{
+float:left;
+width:122px;
+padding: 5px 20px 10px;
+text-align:center;
+box-sizing: border-box;
+border-right:1px solid #d1d1d1;
+border-bottom:1px solid #d1d1d1;
+background:#fff;
+color:#404040;
+text-decoration:none;
+}
+.big-tabs>.big-tab:first-child{
+border-top-left-radius:5px;
+}
+.big-tabs>.big-tab:last-child{
+border-right:0;
+border-top-right-radius:5px;
+}
+.big-tabs>.big-tab>div{
+height:40px;
+position:relative;
+}
+.big-tabs>.big-tab>div>img{
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+margin:auto;
+max-width:100%;
+max-height:100%;
+}
+.big-tabs>.big-tab:hover {
+    background:#f1efef;
+}
+.big-tabs>.big-tab.active{
+background:#eee;
+border-bottom:0;
+}
+.small-tabs{
+overflow:hidden;
+padding:6px 10px 0;
+background:linear-gradient(#eee, #d2d2d2);
+position:relative;
+}
+.small-tabs:before{
+content:"";
+position:absolute;
+left:0;
+right:0;
+bottom:0;
+border-bottom:1px solid #fcfcfc;
+}
+.small-tabs>div{
+float:left;
+position:relative;
+margin-right:3px;
+}
+.small-tabs>div>div{
+padding: 0 10px 0 35px;
+box-sizing: border-box;
+line-height:25px;
+display:block;
+border:1px solid #d1d1d1;
+border-bottom-color:#fcfcfc;
+background:linear-gradient(#dbdbdb, #c9c9c9);
+color:#404040;
+text-decoration:none;
+border-radius:3px 3px 0 0;
+margin-top:3px;
+}
+.small-tabs>div>div:hover {
+background:#f1efef;
+}
+.small-tabs>div>div.active{
+margin-top:0px;
+padding-top:3px;
+background:#eee;
+border-color:#fcfcfc;
+border-bottom-color:#eee;
+}
+.small-tabs>div>div>img{
+margin-bottom:2px;
+}
+.small-tabs>div>input{
+position:absolute;
+top:8px;
+left:10px;
+z-index:1;
+}
+
+.container .inner{
+margin-top:20px;
+padding: 0 20px;
+height:360px;
+}
+.container .small-tabs + .inner{
+height:320px;
+}
+.container .buttons{
+overflow:hidden;
+margin: 20px 20px 15px 20px; /*0 20px 15px;*/
+border-top:1px solid #d1d1d1;
+}
+.container .buttons:before{
+content:"";
+display:block;
+border-top:1px solid #f8f8f8;
+margin-bottom:15px;
+}
+.container  .buttons .left{
+float:left;
+}
+.container  .buttons .right{
+float:right;
+}
+
+
+.popover{
+position:absolute;
+border-radius:5px;
+background:#eee;
+border:1px solid #d1d1d1;
+box-shadow:0 0 3px rgba(0,0,0,0.25);
+padding:10px 20px;
+width:250px;
+z-index:10;
+}
+.popover>.close{
+position:absolute;
+right:5px;
+top:5px;
+}
+
+.col-1 {
+	margin:0 50px;
+}
+
+.col-2:before,
+.col-2:after{
+	content: "";
+	display: table;
+}
+.col-2:after {
+	clear: both;
+}
+.col-2>div {
+	float:left;
+	width:50%;
+	box-sizing: border-box;
+}
+
+.col-3:before,
+.col-3:after{
+	content: "";
+	display: table;
+}
+.col-3:after {
+	clear: both;
+}
+.col-3>div {
+	float:left;
+	width:33.333%;
+}
+
+.col-4:before,
+.col-4:after{
+	content: "";
+	display: table;
+}
+.col-4:after {
+	clear: both;
+}
+.col-4>div {
+	float:left;
+	width:25%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.cnt {
+    position: relative;
+    min-height: 20px;
+    padding-left: 20px;
+    display:block;
+    margin-bottom:3px;
+}
+.cnt input {
+    position: absolute;	
+    margin-left: -20px;
+}
+
+.big-tab, .small-tab {cursor: pointer;}
+
+#search-panel .small-panel.inner {height:324px;}
+
+.bar-parameters .extra,
+.yandex-parameters .extra,
+.google-parameters .extra,
+.page-noindex .extra,
+.page-nofollow .extra,
+.page-sponsored .extra,
+.page-ugc .extra,
+.page-canonical .extra,
+.page-robots .extra,
+.page-outerlinks .extra,
+.page-displaynone .extra {display:inline-block; margin:-2px 0 -4px 3px; cursor:pointer}
+
+.bar-parameters .coins,
+.yandex-parameters .coins,
+.google-parameters .coins {display:inline-block; margin:-2px 0 -5px 3px; cursor:pointer;}
+
+.bar-parameters.disabled *,
+.bar-position.disabled *,
+.bar-check.disabled *,
+#yandex-small-panel.disabled *,
+#google-small-panel.disabled *,
+.page-noindex.disabled *,
+.page-nofollow.disabled *,
+.page-sponsored.disabled *,
+.page-ugc.disabled *,
+.page-canonical.disabled *,
+.page-robots.disabled *,
+.page-outerlinks.disabled *,
+.page-displaynone.disabled * { color: #BABAB3 !important;}
+
+#html-panel .inner .col-1 {padding: 30px 0 0 18px;}
+#html-panel .inner .col-1 > div{margin-bottom: 20px;}
+#html-panel .highlighting-on {margin-left: -18px;}
+
+/*.color-option table,
+.bar-option table ,
+.add_opt_cnt table{width:100%;}*/
+
+/*.color-option table td,
+.bar-option table td,
+.add_opt_cnt table td
+{border-left:1px solid #dbe5f1;padding:0 33px;width:33%;min-width: 237px}*/
+
+/*.color-option.en_locale table td.page-outerlinks,
+.add_opt_cnt table td.bar_language
+{ width: 66%}
+
+.color-option td:last-child,
+.bar-option td:last-child,
+.add_opt_cnt td:last-child
+{padding-right:0;border-right:none;}
+
+.color-option td:first-child,
+.color-option.en_locale td:nth-child(2),
+.bar-option td:first-child,
+.add_opt_cnt td:first-child
+{padding-left:0;border-left:none;}*/
+
+/*.cnt {margin-bottom:11px;}*/
+.color-option .cnt {margin-left:20px;position: relative;margin-right: 50px;}
+.color-option .cnt label{margin-right: 7px;}
+.color-option .cnt:first-child {margin-left:0;}
+.color-option td .cnt:last-child {margin-bottom:0;}
+.bar-filter-domain {margin-top: 3px;}
+.page-outerlinks .list,
+.page-displaynone .list,
+.bar-filter-domain .list,
+.exceptions .list,
+.exceptionsBar .list{
+    display:block;font-size:11px;width:100%;max-width:231px;min-width:154px;border:1px solid #a5acb2;overflow-y:auto;margin-top:6px;height: 60px;
+}
+/*.bar-filter-domain .list {margin-top: 11px;}*/
+
+.cnt input.color {width: 45px;border: solid 1px #CCC;margin:0;font-size: 10px;vertical-align:  middle;}
+
+#extra-panel .inner .col-1 {padding: 30px 0 0 0px;}
+/*.bar-positions-cnt {position:relative; top: 30px;}*/
+.bar-on .ttl, .highlighting-on .ttl {font-weight: 800;}
+.bar-on .extra {display:inline-block; margin:-2px 0 -4px 3px; cursor:pointer}
+.bar-position {padding-left:29px;margin-top:14px;position:relative;min-width: 210px;min-height:44px;}
+.bar-position .cnt {float:left;width:45%;}
+ins {background:url("../icons/skin/imgs.gif") 0 0 no-repeat;position:absolute;}
+.bar-position ins {width:16px;height:16px;left:0px;top:-3px;}
+.bar-check, .bar_italic, bar_language {margin-top: 10px;}
+.bar-check .cnt {padding-left: 30px;}
+.bar_italic .cnt {padding-left: 30px;}
+.bar_language .cnt {padding-left: 8px;}
+.box {margin-bottom: 20px; padding: 17px 5px 4px 0px; width: 250px;position: relative; top: 20px;}
+.box .header{font-weight: 800; position: absolute;top: -8px;left: 0px;}
+.box select {border: 1px solid #A5ACB2; min-width: 80px; font-size: 12px;}
+
+/*#support-formContainer {display: none;}*/
+#support {padding-top: 10px;}
+#support-title {margin: 0 0 30px; font-size: 12px; font-weight: bold;}
+#support-problem-select {width:100%;}
+#support-comment-cnt {margin-top: 5px;}
+#support-comment {width:100%; resize: none; color: #555661;}
+#support-page-url-label {text-align:right; padding:7px 10px 0 0;}
+#support-page-url-input {width:100%;}
+#support-screenshot-url-label {text-align:right; padding:7px 10px 0 0;}
+#support-screenshot-url-input {width:100%;}
+#support-email-label {text-align:right; padding:7px 10px 0 0;}
+#support-email-input {width:100%;}
+#support-bottom-cnt {overflow:hidden; margin-top:5px;}
+#support-addons-list-cnt {float:left; margin-top:7px;}
+#support-send {float:right; margin-right: 0;}
+#support-OK {position:relative; top: 100px; text-align: center; display: none;} 
+#support-OK-label {color:#3aac28; font-size: 18px;}
+#support-errors {display: none}
+.support-error-label {color:red; font-size: 18px;}
+
+.in-progress {position:relative; top: 100px; text-align: center; font-size: 18px;}
+
+#bar-version {display: inline; font-weight: bold;}
+
+.contextmenu .coins {display:inline-block; background-position: -136px 0; margin:-2px 0 -5px 3px; cursor:pointer;}
+.contextmenu {
+    visibility:hidden;
+    position: absolute;
+    background:#ebebeb /*edeeed*/;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.25);
+    padding: 10px 20px 15px 20px;
+    z-index:2;
+    max-width: 400px;
+    min-width: 240px;
+    letter-spacing:normal;
+    white-space: normal;
+    text-align: left;
+    font-family: Tahoma, Sans-serif;
+    color:#404040;
+}
+.contextmenu .cm-close {
+    position:absolute;
+    right: 5px;
+    top: 5px;
+    cursor:pointer;
+}
+.contextmenu div {font-size:11px;line-height:1em;}
+
+.cm-cnt .api {padding: 6px 8px 0 0px; min-width: 210px;}
+.cm-cnt .api .ttl {margin: 0 0 7px 0; padding-bottom: 15px; font-weight: bold;}
+
+.cm-cnt .YaBar,
+.cm-cnt .PRg,
+.cm-cnt .PRMain,
+.cm-cnt .domain_zone,
+.cm-cnt .semrush_zone,
+.cm-cnt .RegionalRank,
+.cm-cnt .Sape,
+.cm-cnt .Trustlink,
+.cm-cnt .Liex,
+.cm-cnt .Mainlink,
+.cm-cnt .Linkfeed,
+.cm-cnt .Setlinks,
+.cm-cnt .Xap,
+.cm-cnt .Propage,
+.cm-cnt .Seozavr,
+.cm-cnt .SapeArticles,
+.cm-cnt .SapePr,
+.cm-cnt .Miralinks,
+.cm-cnt .Gogetlinks,
+.cm-cnt .Blogun,
+.cm-cnt .RotaPost,
+.cm-cnt .Rds,
+.cm-cnt .noindex,
+.cm-cnt .rel_nofollow,
+.cm-cnt .subdomains,
+.cm-cnt ._title,
+.cm-cnt .description,
+.cm-cnt .keywords,
+.cm-cnt .h1,
+.cm-cnt .h2_h4,
+.cm-cnt .canonical,
+.cm-cnt .metaRobots,
+.cm-cnt .GooglePlus,
+.cm-cnt .Facebook,
+.cm-cnt .Twitter,
+.cm-cnt .VK,
+.cm-cnt .Seo,
+.cm-cnt .Host,
+.cm-cnt .Provider,
+.cm-cnt .Geo,
+.cm-cnt .CheckDangerous,
+.cm-cnt .Age,
+.cm-cnt .prodvigator_yandex,
+.cm-cnt .prodvigator_google,
+.cm-cnt .prodvigator_google_source,
+.cm-cnt .daily_traffic,
+.cm-cnt .check_always,
+.cm-cnt .res_ttl,
+.cm-cnt .res_desc,
+.cm-cnt .res_url,
+.cm-cnt .Visits,
+.cm-cnt .TimeOnSite,
+.cm-cnt .PagePerVisit,
+.cm-cnt .BounceRate,
+.cm-cnt .CountryShares,
+.cm-cnt .Sources,
+.cm-cnt .Referrals,
+.cm-cnt .OrganicKeywords,
+.cm-cnt .Page,
+.cm-cnt .Domain
+{padding: 6px 8px 0 0px ;}
+
+.cm-cnt .title, .exceptions, .exceptionsBar {padding: 6px 8px;min-width: 210px;}
+.cm-cnt .title .ttl, .cm-cnt .exceptions .ttl, .cm-cnt .exceptionsBar .ttl {padding-bottom: 15px; font-weight: bold;}
+.cm-cnt .title, .exceptions textarea, .exceptionsBar textarea {width: 100%; resize: vertical;}
+
+.cm-cnt .api label,
+.cm-cnt .YaBar label,
+.cm-cnt .PRg label,
+.cm-cnt .PRMain label,
+.cm-cnt .RegionalRank label,
+.cm-cnt .Sape label,
+.cm-cnt .Trustlink label,
+.cm-cnt .Liex label,
+.cm-cnt .Mainlink label,
+.cm-cnt .Linkfeed label,
+.cm-cnt .Setlinks label,
+.cm-cnt .Xap label,
+.cm-cnt .Propage label,
+.cm-cnt .Seozavr label,
+.cm-cnt .SapeArticles label,
+.cm-cnt .SapePr label,
+.cm-cnt .Miralinks label,
+.cm-cnt .Gogetlinks label,
+.cm-cnt .Blogun label,
+.cm-cnt .RotaPost label,
+.cm-cnt .Rds label,
+.cm-cnt .noindex label,
+.cm-cnt .rel_nofollow label,
+.cm-cnt .subdomains label,
+.cm-cnt ._title label,
+.cm-cnt .description label,
+.cm-cnt .keywords label,
+.cm-cnt .h1 label,
+.cm-cnt .h2_h4 label,
+.cm-cnt .canonical label,
+.cm-cnt .metaRobots label,
+.cm-cnt .GooglePlus label,
+.cm-cnt .Facebook label,
+.cm-cnt .Twitter label,
+.cm-cnt .VK label,
+.cm-cnt .Seo label,
+.cm-cnt .Host label,
+.cm-cnt .Provider label,
+.cm-cnt .Geo label,
+.cm-cnt .CheckDangerous label,
+.cm-cnt .Age label,
+.cm-cnt .prodvigator_yandex label,
+.cm-cnt .prodvigator_google label,
+.cm-cnt .daily_traffic label,
+.cm-cnt .check_always label,
+.cm-cnt .res_ttl label,
+.cm-cnt .res_desc label,
+.cm-cnt .res_url label,
+.cm-cnt .Visits label,
+.cm-cnt .TimeOnSite label,
+.cm-cnt .PagePerVisit label,
+.cm-cnt .BounceRate label,
+.cm-cnt .CountryShares label,
+.cm-cnt .Sources label,
+.cm-cnt .Referrals label,
+.cm-cnt .OrganicKeywords label,
+.cm-cnt .Page label,
+.cm-cnt .Domain label
+{display:block; position:relative; margin: 0 8px 7px 30px;}
+
+.cm-cnt .api label input,
+.cm-cnt .YaBar input,
+.cm-cnt .PRg input,
+.cm-cnt .PRMain input,
+.cm-cnt .RegionalRank input,
+.cm-cnt .Sape input,
+.cm-cnt .Trustlink input,
+.cm-cnt .Liex input,
+.cm-cnt .Mainlink input,
+.cm-cnt .Linkfeed input,
+.cm-cnt .Setlinks input,
+.cm-cnt .Xap input,
+.cm-cnt .Propage input,
+.cm-cnt .Seozavr input,
+.cm-cnt .SapeArticles input,
+.cm-cnt .SapePr input,
+.cm-cnt .Miralinks input,
+.cm-cnt .Gogetlinks input,
+.cm-cnt .Blogun input,
+.cm-cnt .RotaPost input,
+.cm-cnt .Rds input,
+.cm-cnt .noindex input,
+.cm-cnt .rel_nofollow input,
+.cm-cnt .subdomains input,
+.cm-cnt ._title input,
+.cm-cnt .description input,
+.cm-cnt .keywords input,
+.cm-cnt .h1 input,
+.cm-cnt .h2_h4 input,
+.cm-cnt .canonical input,
+.cm-cnt .metaRobots input,
+.cm-cnt .GooglePlus input,
+.cm-cnt .Facebook input,
+.cm-cnt .Twitter input,
+.cm-cnt .VK input,
+.cm-cnt .Seo input,
+.cm-cnt .Host input,
+.cm-cnt .Provider input,
+.cm-cnt .Geo input,
+.cm-cnt .CheckDangerous input,
+.cm-cnt .Age input,
+.cm-cnt .prodvigator_yandex input,
+.cm-cnt .prodvigator_google input,
+.cm-cnt .daily_traffic input,
+.cm-cnt .check_always input,
+.cm-cnt .res_ttl input,
+.cm-cnt .res_desc input,
+.cm-cnt .res_url input,
+.cm-cnt .Visits input,
+.cm-cnt .TimeOnSite input,
+.cm-cnt .PagePerVisit input,
+.cm-cnt .BounceRate input,
+.cm-cnt .CountryShares input,
+.cm-cnt .Sources input,
+.cm-cnt .Referrals input,
+.cm-cnt .OrganicKeywords input,
+.cm-cnt .Page input,
+.cm-cnt .Domain input
+{vertical-align: middle;margin: -1px 0 0 -20px;position: absolute;}
+
+.cm-cnt .api label.extra_api {left: 20px;}
+.cm-cnt .api label.extra_api.disabled {color: #BABAB3 !important;}
+
+.cm-cnt .domain_zone, .cm-cnt .semrush_zone, .cm-cnt .prodvigator_google_source {padding: 4px 0px; margin: 0 0px 6px;}
+.domain_zone .name, .semrush_zone .name, .prodvigator_google_source .name {margin-right: 5px; font-weight: bold; }
+.cm-cnt select {border: 1px solid #A5ACB2;min-width: 50px;}
+
+.cm-cnt .prodvigator_google_source {position: relative; right: -30px; top: -10px; padding: 0px 0px; margin: 0 0px -8px;}
+
+.cm-noindex .name,
+.cm-nofollow .name,
+.cm-sponsored .name,
+.cm-ugc .name,
+.cm-canonical .name,
+.cm-robots .name,
+.cm-outerlinks .name,
+.cm-displaynone .name {
+    position: relative; top: 1px; margin-right: 5px;
+}
+
+.cm-cnt.rds-col2 {width: 250px; -webkit-column-count: 2; column-count: 2;}
+
+/* yandex catalog */
+#ya__catalog_on {position: relative; top: 3px; left: 10px;}
+#ya__catalog_on + img {margin-left:  15px;}
+
+.no_checkbox.cnt {padding-left: 2px;}
+.no_checkbox.cnt input[type=checkbox] {display: none;}
+#yandex-small-panel.disabled .no_checkbox.cnt * {color: #404040 !important;}

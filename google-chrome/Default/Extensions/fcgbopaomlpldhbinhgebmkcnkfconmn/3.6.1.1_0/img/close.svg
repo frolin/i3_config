@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Atoms / Icons / Close / a.icon.delete Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Плагин---Настройки" transform="translate(-1048.000000, -948.000000)" fill="#FFFFFF">
+            <g id="Settings-for-clients" transform="translate(283.000000, 907.000000)">
+                <g id="Settings" transform="translate(464.000000, 28.000000)">
+                    <g id="Header" transform="translate(0.000000, 8.000000)">
+                        <g id="Atoms-/-Icons-/-Close-/-a.icons.close.tag" transform="translate(296.000000, 0.000000)">
+                            <path d="M10.0049227,8.38963934 L12.4315649,5.96299716 C12.8755602,5.51900188 13.5939732,5.51755633 14.0431312,5.96671428 C14.4891793,6.41276247 14.4827593,7.14236953 14.0468483,7.57828054 L11.6202061,10.0049227 L14.0468483,12.4315649 C14.4908436,12.8755602 14.4922891,13.5939732 14.0431312,14.0431312 C13.597083,14.4891793 12.8674759,14.4827593 12.4315649,14.0468483 L10.0049227,11.6202061 L7.57828054,14.0468483 C7.13428526,14.4908436 6.41587223,14.4922891 5.96671428,14.0431312 C5.52066609,13.597083 5.52708615,12.8674759 5.96299716,12.4315649 L8.38963934,10.0049227 L5.96299716,7.57828054 C5.51900188,7.13428526 5.51755633,6.41587223 5.96671428,5.96671428 C6.41276247,5.52066609 7.14236953,5.52708615 7.57828054,5.96299716 L10.0049227,8.38963934 Z" id="close"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

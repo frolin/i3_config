@@ -1,0 +1,200 @@
+{
+   "conf_enable": {
+      "message": "เปิดใช้งาน"
+   },
+   "conf_none": {
+      "message": "ไม่มี"
+   },
+   "conf_notsaved": {
+      "message": "ไม่ได้บันทึกเลย"
+   },
+   "conf_save": {
+      "message": "บันทึก"
+   },
+   "conf_saved": {
+      "message": "บันทึกแล้ว"
+   },
+   "conf_setdefault": {
+      "message": "ตั้งเป็นค่าเริ่มต้น"
+   },
+   "ext_description": {
+      "message": "ตรวจสอบการสะกดของ Chrome เป็นส่วนขยายที่ใช้ได้ง่ายและรวดเร็ว ซึ่งรองรับได้ถึง 12 ภาษา"
+   },
+   "ext_name": {
+      "message": "Spell Checker for Chrome"
+   },
+   "locale": {
+      "message": "th"
+   },
+   "msg_add": {
+      "message": "เพิ่ม"
+   },
+   "msg_addtouserdic": {
+      "message": "เพิ่มไปยังพจนานุกรมส่วนตัว"
+   },
+   "msg_areyousure": {
+      "message": "แน่ใจหรือไม่?"
+   },
+   "msg_autoclosewin": {
+      "message": "ปิดหน้าต่างนี้อัตโนมัติ"
+   },
+   "msg_autoclosewindesc": {
+      "message": "ปิดหน้าต่างนี้เมื่อเปลี่ยนแปลงโดยอัตโนมัติ"
+   },
+   "msg_autocorrection": {
+      "message": "แก้ไขอัตโนมัติ"
+   },
+   "msg_change": {
+      "message": "เปลี่ยน"
+   },
+   "msg_changeall": {
+      "message": "เปลี่ยนทั้งหมด"
+   },
+   "msg_changealldesc": {
+      "message": "เปลี่ยนเฉพาะส่วนที่เหมือนทั้งหมด"
+   },
+   "msg_changecolor": {
+      "message": "สีคำที่ถูกเปลี่ยน"
+   },
+   "msg_close": {
+      "message": "ปิด"
+   },
+   "msg_color": {
+      "message": "สี"
+   },
+   "msg_contextmenu": {
+      "message": "เมนูบริบทของ Chrome"
+   },
+   "msg_copyclipboard": {
+      "message": "ข้อความได้ถูกคัดลอกไปยังคลิปบอร์ด"
+   },
+   "msg_copytext": {
+      "message": "คัดลอกข้อความ"
+   },
+   "msg_correctcolor": {
+      "message": "สีคำที่ถูกต้อง"
+   },
+   "msg_current": {
+      "message": "ปัจจุบัน"
+   },
+   "msg_delete": {
+      "message": "ลบ"
+   },
+   "msg_deletefromuserdic": {
+      "message": "ลบออกจากพจนานุกรมส่วนตัว"
+   },
+   "msg_desc": {
+      "message": "แสดงรายละเอียด"
+   },
+   "msg_edit": {
+      "message": "แก้ไข"
+   },
+   "msg_error": {
+      "message": "ข้อผิดพลาดที่เกิดขึ้น"
+   },
+   "msg_first": {
+      "message": "นี่คืออันแรก"
+   },
+   "msg_gospellcheck": {
+      "message": "ไปยังตรวจสอบการสะกด!"
+   },
+   "msg_last": {
+      "message": "นี่คืออันสุดท้าย"
+   },
+   "msg_load": {
+      "message": "โหลด"
+   },
+   "msg_loadcomplete": {
+      "message": "ข้อมูลได้โหลดมาแล้ว"
+   },
+   "msg_manual": {
+      "message": "แก้ไขด้วยตนเอง"
+   },
+   "msg_maxwidth": {
+      "message": "ความกว้างสูงสุดของพื้นที่ตรวจสอบการสะกด"
+   },
+   "msg_maxword": {
+      "message": "ถ้ามากกว่า %s ตัวอักษรจะถูกตัดออก"
+   },
+   "msg_next": {
+      "message": "ถัดไป"
+   },
+   "msg_nodata": {
+      "message": "ไม่มีข้อมูล"
+   },
+   "msg_noinput": {
+      "message": "ไม่ได้ป้อนข้อมูล"
+   },
+   "msg_notfound": {
+      "message": "ตรวจสอบการสะกดเสร็จสิ้นลงแล้ว ไม่พบข้อผิดพลาดในการสะกด"
+   },
+   "msg_notselected": {
+      "message": "ไม่ได้เลือกไว้"
+   },
+   "msg_open_current": {
+      "message": "เปิดในแท็บปัจจุบัน"
+   },
+   "msg_open_existtab": {
+      "message": "เปิดในแท็บใหม่ที่มีอยู่แล้ว"
+   },
+   "msg_open_newtab": {
+      "message": "เปิดในแท็บใหม่"
+   },
+   "msg_open_newwindow": {
+      "message": "เปิดในหน้าต่างใหม่"
+   },
+   "msg_open_poswindow": {
+      "message": "เปิดในตำแหน่งหน้าต่าง"
+   },
+   "msg_openeditwindow": {
+      "message": "เปิดหน้าต่างแก้ไข"
+   },
+   "msg_opennewtablast": {
+      "message": "สร้างแท็บใหม่บนตำแหน่งขวาสุด"
+   },
+   "msg_opentype": {
+      "message": "ตรวจสอบการสะกดแบบ OpenType"
+   },
+   "msg_option": {
+      "message": "ตัวเลือก"
+   },
+   "msg_prev": {
+      "message": "ก่อนหน้า"
+   },
+   "msg_ratedesc": {
+      "message": "ถ้าคุณชอบสิ่งนี้ ขอขอบคุณเป็นอย่างสูงหากคุณจะให้คะแนนส่วนขยายด้วย 5 ดาวและบอกเพื่อนของคุณ"
+   },
+   "msg_ratethisitem": {
+      "message": "ให้คะแนนส่วนขยายนี้"
+   },
+   "msg_shortcut": {
+      "message": "เมนูลัด"
+   },
+   "msg_sort": {
+      "message": "เรียงลำดับ"
+   },
+   "msg_source": {
+      "message": "แหล่ง"
+   },
+   "msg_spellanalysis": {
+      "message": "วิเคราะห์ตรวจสอบการสะกด"
+   },
+   "msg_spellcheck": {
+      "message": "ตรวจสอบการสะกด"
+   },
+   "msg_stop": {
+      "message": "หยุด"
+   },
+   "msg_suggest": {
+      "message": "คำแนะนำ"
+   },
+   "msg_unsort": {
+      "message": "ยกเลิกการเรียงลำดับ"
+   },
+   "msg_userdictionary": {
+      "message": "พจนานุกรมส่วนตัว"
+   },
+   "msg_wait": {
+      "message": "รอ"
+   }
+}

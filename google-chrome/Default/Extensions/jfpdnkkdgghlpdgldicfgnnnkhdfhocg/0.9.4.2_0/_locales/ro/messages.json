@@ -1,0 +1,191 @@
+{
+   "conf_enable": {
+      "message": "Activează"
+   },
+   "conf_none": {
+      "message": "Nimic"
+   },
+   "conf_notsaved": {
+      "message": "Nu a fost salvat"
+   },
+   "conf_save": {
+      "message": "Salvează"
+   },
+   "conf_saved": {
+      "message": "A fost salvat"
+   },
+   "conf_setdefault": {
+      "message": "Setează ca implicit"
+   },
+   "ext_description": {
+      "message": "Extensia Spell Checker pentru Chrome. Este ușor de folosit și rapidă. Această extensie suportă 12 limbi pentru corectorul ortografic."
+   },
+   "ext_name": {
+      "message": "Spell Checker for Chrome"
+   },
+   "msg_add": {
+      "message": "Adaugă"
+   },
+   "msg_addtouserdic": {
+      "message": "Adaugă la dicţionarul utilizatorului"
+   },
+   "msg_areyousure": {
+      "message": "Eşti sigur?"
+   },
+   "msg_autoclosewin": {
+      "message": "Închide automat această fereastră"
+   },
+   "msg_autoclosewindesc": {
+      "message": "Închide automat această fereastră după schimbare"
+   },
+   "msg_change": {
+      "message": "Schimbă"
+   },
+   "msg_changeall": {
+      "message": "Schimbă tot"
+   },
+   "msg_changealldesc": {
+      "message": "Schimbă tot de la aceeași sursă"
+   },
+   "msg_changecolor": {
+      "message": "Culoarea cuvântului schimbat"
+   },
+   "msg_close": {
+      "message": "Închide"
+   },
+   "msg_color": {
+      "message": "Culoare"
+   },
+   "msg_contextmenu": {
+      "message": "Meniu contextual Chrome"
+   },
+   "msg_copyclipboard": {
+      "message": "Textul a fost copiat în clipboard."
+   },
+   "msg_copytext": {
+      "message": "Copiază textul"
+   },
+   "msg_correctcolor": {
+      "message": "Culoarea cuvântului corectat"
+   },
+   "msg_current": {
+      "message": "Curent"
+   },
+   "msg_delete": {
+      "message": "Şterge"
+   },
+   "msg_deletefromuserdic": {
+      "message": "Şterge din dicţionarul utilizatorului"
+   },
+   "msg_desc": {
+      "message": "Arată descrierea"
+   },
+   "msg_edit": {
+      "message": "Editează"
+   },
+   "msg_error": {
+      "message": "S-a produs o eroare."
+   },
+   "msg_first": {
+      "message": "Este primul."
+   },
+   "msg_gospellcheck": {
+      "message": "Pornește! Verifică ortografia"
+   },
+   "msg_last": {
+      "message": "Este ultimul."
+   },
+   "msg_load": {
+      "message": "Încarcă"
+   },
+   "msg_loadcomplete": {
+      "message": "A încărcat datele"
+   },
+   "msg_manual": {
+      "message": "Manual"
+   },
+   "msg_maxwidth": {
+      "message": "Lăţime maximă a zonei de verificator ortografic"
+   },
+   "msg_maxword": {
+      "message": "Mai mult de %s caractere sunt trunchiate."
+   },
+   "msg_next": {
+      "message": "Următorul"
+   },
+   "msg_nodata": {
+      "message": "Nicio informaţie"
+   },
+   "msg_noinput": {
+      "message": "Nu a fost introdusă nicio informaţie."
+   },
+   "msg_notfound": {
+      "message": "Verificare ortografică încheiată. Nu s-au găsit erori ortografice."
+   },
+   "msg_notselected": {
+      "message": "Nu există nicio alegere."
+   },
+   "msg_open_current": {
+      "message": "Deschide în tabul curent"
+   },
+   "msg_open_existtab": {
+      "message": "Deschide într-un tab nou existent"
+   },
+   "msg_open_newtab": {
+      "message": "Deschide într-un tab nou"
+   },
+   "msg_open_newwindow": {
+      "message": "Deschide într-o fereastră nouă"
+   },
+   "msg_open_poswindow": {
+      "message": "Deschide în fereastra de poziţie"
+   },
+   "msg_openeditwindow": {
+      "message": "Deschide fereastra de editare"
+   },
+   "msg_opennewtablast": {
+      "message": "Creează un tab nou în partea din dreapta cea mai îndepărtată"
+   },
+   "msg_opentype": {
+      "message": "Spell checker opentype"
+   },
+   "msg_option": {
+      "message": "Opţiune"
+   },
+   "msg_prev": {
+      "message": "Anteriorul"
+   },
+   "msg_ratedesc": {
+      "message": "Dacă îţi place, aş aprecia dacă ai evalua-o cu 5 stele şi dacă le-ai spune şi prietenilor."
+   },
+   "msg_ratethisitem": {
+      "message": "Evaluează această extensie"
+   },
+   "msg_shortcut": {
+      "message": "Scurtături"
+   },
+   "msg_sort": {
+      "message": "Sortează"
+   },
+   "msg_source": {
+      "message": "Sursă"
+   },
+   "msg_spellanalysis": {
+      "message": "Analiză a verificării ortografice"
+   },
+   "msg_spellcheck": {
+      "message": "Verifică ortografia"
+   },
+   "msg_suggest": {
+      "message": "Sugerează"
+   },
+   "msg_unsort": {
+      "message": "Anulează sortarea"
+   },
+   "msg_userdictionary": {
+      "message": "Dicţionarul utilizatorului"
+   },
+   "msg_wait": {
+      "message": "Aşteaptă"
+   }
+}

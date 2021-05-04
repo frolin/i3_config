@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description",
+      "message": "Находит нужные вам товары и услуги по более выгодной цене"
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Советник Яндекс.Маркета"
+   }
+}

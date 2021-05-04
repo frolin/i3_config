@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description",
+      "message": "Paranızı boşa harcamayın"
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Yandex.Market Danışmanı"
+   }
+}
