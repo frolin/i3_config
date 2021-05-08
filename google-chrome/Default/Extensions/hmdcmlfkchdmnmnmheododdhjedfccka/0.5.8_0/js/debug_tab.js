@@ -1,1 +1,0 @@
-(()=>{var e;e=function(){chrome.runtime.getBackgroundPage((e=>{document.getElementById("debugImage").src=e.bg.debugImage})),chrome.runtime.onMessage.addListener(((e,n,t)=>{e.reqtype,window.location.reload()}))},"loading"!=document.readyState?e():document.addEventListener("DOMContentLoaded",e)})();

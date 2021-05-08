@@ -17,6 +17,8 @@ x-scheme-handler/mailto=userapp-Thunderbird.desktop
 message/rfc822=userapp-Thunderbird.desktop
 application/pdf=epdfview.desktop
 application/x-bittorrent=deluge.desktop
+application/x-yaml=sublime_text.desktop
+text/x-makefile=sublime_text.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Pale Moon.desktop;firefox.desktop;
@@ -37,3 +39,6 @@ x-scheme-handler/mailto=userapp-Thunderbird.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=epdfview.desktop;
 application/x-bittorrent=deluge.desktop;
+application/octet-stream=sublime_text.desktop;
+application/x-yaml=sublime_text.desktop;
+text/x-makefile=sublime_text.desktop;

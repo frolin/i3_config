@@ -1,8 +1,0 @@
-{
-   "ext_description": {
-      "message": "クロームのためのチェッカー拡張を綴る。この拡張機能は、スペルチェックのための12の言語をサポートしています。"
-   },
-   "ext_name": {
-      "message": "Spell Checker for Chrome"
-   }
-}

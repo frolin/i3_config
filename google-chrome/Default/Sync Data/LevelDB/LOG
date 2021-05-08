@@ -1,5 +1,0 @@
-2021/05/03-23:28:33.112 da72 Creating DB /home/frolin/.config/google-chrome/Default/Sync Data/LevelDB since it was missing.
-2021/05/03-23:28:33.123 da72 Reusing MANIFEST /home/frolin/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2021/05/03-23:29:27.298 da89 Level-0 table #5: started
-2021/05/03-23:29:27.306 da89 Level-0 table #5: 311942 bytes OK
-2021/05/03-23:29:27.313 da89 Delete type=0 #3
