@@ -115,10 +115,10 @@ focus_on_window_activation focus
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: browser"
 set $ws2 "2: term"
-set $ws3 "3: navigator"
-set $ws4 "4: sublime"
+set $ws3 "3: sublime"
+set $ws4 "4: nav"
 set $ws5 "5: tg"
-set $ws6 "6"
+set $ws6 "6: rubymine"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
@@ -128,27 +128,18 @@ set $ws10 "10"
 assign [class="^firefox"] 1: browser
 for_window [class="^firefox"] focus
 
-assign [class="^URxvt$"] $ws2
+assign [class="^URxvt$"] 2: term
 for_window [class="^URxvt"] focus
 
-assign [class="^Subl"] $ws4
+assign [class="^Subl"] 3: sublime
 for_window [class="^Subl"] focus
+
+assign [class="^Pcmanfm"] 4: nav
+for_window [class="^Pcmanfm"] focus
 
 
 assign [class="TelegramDesktop"] $ws5
 for_window [class="TelegramDesktop"] focus
-
-#assign [class="Thunar"] $ws4 
-#assign [class="Chromium"] $ws5
-#assign [class="Gpicview"] $ws6
-#assign [class="vlc"] $ws7
-#assign [class="mpv"] $ws7
-#assign [class="qTox"] $ws9
-
-
-#bug with the beta client, workaround :
-#assign [class="spotify"] $ws10
-#for_window [class="Spotify"] move to workspace $ws5
 
 
 # Floating
@@ -238,12 +229,15 @@ exec_always --no-startup-id bash $HOME/.config/polybar/forest/launch.sh
 bindsym ctrl+space exec rofi -show run -theme gruvbox-dark
 
 ### Language layout ###
-exec --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:switch,grp:caps_toggle,grp_led:caps"
+exec_always --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:switch,grp:caps_toggle,grp_led:caps"
 
 ### Enable logs
 exec i3 --shmlog-size=26214400
 
+### ScreenShot
+bindsym Print exec flameshot gui
 
+### logout menu
 bindsym $mod+Escape exec sh ~/.config/polybar/forest/scripts/powermenu.sh &
 
 ### Toggle workspaces
@@ -257,3 +251,4 @@ exec --no-startup-id i3-msg 'workspace 5; exec tg'
 
 # Close Window
 bindsym $mod+q kill
+
