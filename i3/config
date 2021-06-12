@@ -28,7 +28,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
+
 exec --no-startup-id nm-applet
+
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -41,7 +43,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec terminator
 
 # kill focused window
 # bindsym $mod+Shift+q kill
@@ -105,50 +107,6 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 
-##################################
-#        Worskpace Settings      #
-##################################
-
-focus_on_window_activation focus
-
-# Define names for default workspaces for which we configure key bindings later on.
-# We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: browser"
-set $ws2 "2: term"
-set $ws3 "3: sublime"
-set $ws4 "4: nav"
-set $ws5 "5: tg"
-set $ws6 "6: rubymine"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
-
-
-assign [class="^firefox"] 1: browser
-for_window [class="^firefox"] focus
-
-assign [class="^URxvt$"] 2: term
-for_window [class="^URxvt"] focus
-
-assign [class="^Subl"] 3: sublime
-for_window [class="^Subl"] focus
-
-assign [class="^Pcmanfm"] 4: nav
-for_window [class="^Pcmanfm"] focus
-
-
-assign [class="TelegramDesktop"] $ws5
-for_window [class="TelegramDesktop"] focus
-
-
-# Floating
-# for_window [class="TelegramDesktop"] floating enable
-for_window [class="Seahorse"] floating enable
-for_window [class="Thunar"] floating enable
-for_window [class="qTox"] floating enable
-for_window [class="telegram-desktop"] floating enable
-for_window [class="gpa"] floating enable
 
 
 # switch to workspace
@@ -213,6 +171,8 @@ mode "resize" {
 # finds out, if available)
 bar {
         status_command i3status
+        #tray_output none
+        separator_symbol ":|:"
 }
 
 
@@ -226,7 +186,7 @@ exec feh --bg-scale $HOME/Pictures/sebastian-engler-PLeo6LGc3AI-unsplash.jpg
 exec_always --no-startup-id bash $HOME/.config/polybar/forest/launch.sh
 
 ### ROFI ###
-bindsym ctrl+space exec rofi -show run -theme gruvbox-dark
+bindsym ctrl+space exec ~/.config/polybar/blocks/scripts/launcher.sh &
 
 ### Language layout ###
 exec_always --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:switch,grp:caps_toggle,grp_led:caps"
@@ -243,12 +203,114 @@ bindsym $mod+Escape exec sh ~/.config/polybar/forest/scripts/powermenu.sh &
 ### Toggle workspaces
 bindsym $mod+Tab workspace back_and_forth
 
-exec --no-startup-id i3-msg 'workspace 1; exec firefox;'
-exec --no-startup-id i3-msg 'workspace 2; exec urxvt;'
-exec --no-startup-id i3-msg 'workspace 3; exec subl'
-exec --no-startup-id i3-msg 'workspace 4; exec pcmanfm;'
-exec --no-startup-id i3-msg 'workspace 5; exec tg'
 
 # Close Window
 bindsym $mod+q kill
+
+# You can also use any non-zero value if you'd like to have a border
+#for_window [class=".*"] border pixel 0
+
+# Отлючение заголовков
+default_border pixel
+
+# Когда открыто одно окно, оно открывется на весь экран без отступов
+smart_gaps on
+
+# Включает умные рамки, когда открыто одно окно рамки выключаются
+smart_borders on
+
+
+# Отступы между открытыми окнами
+#
+
+# авто фокус 
+focus_follows_mouse no
+
+# Увеличение толщены рамки, чтобы было лучше видно активное окно
+for_window [tiling] border pixel 1
+
+# exec --no-startup-id exec picom -b 
+
+# force floating for all new windows
+# for_window [class="[.]*"] floating enable
+
+# browser pop-ups
+for_window [window_role="pop-up"] floating enable
+
+##################################
+#        Worskpace Settings      #
+##################################
+
+focus_on_window_activation focus
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1: browser"
+set $ws2 "2: term"
+set $ws3 "3: rubymine"
+set $ws4 "4: sublime"
+set $ws5 "5: nav"
+set $ws6 "6: tg"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9: notion"
+set $ws10 "10"
+
+
+# Use xprop tool for active window 
+
+assign [class="^firefox"] 1: browser
+for_window [class="^firefox"] focus
+
+assign [class="terminator"] 2: term
+for_window [class="terminator"] focus
+
+assign [class="^Subl"] 4: sublime
+for_window [class="^Subl"] focus
+
+assign [class="^Pcmanfm"] 5: nav
+for_window [class="^Pcmanfm"] focus
+
+assign [class="doublecmd"] 5: nav
+for_window [class="doublecmd"] focus
+
+assign [class="TelegramDesktop"] 6: tg
+for_window [class="TelegramDesktop"] focus
+
+assign [class="jetbrains-rubymine"] 3: rubymines
+for_window [class="jetbrains-rubymine"] focus
+
+assign [class="Notion"] 9: notion
+for_window [class="Notion"] focus
+
+# assign [class=".*"] $ws7
+# for_window [class=".*"] focus 
+
+# force floating for all new windows
+#for_window [class=".*"] floating enable
+
+
+# Floating
+# for_window [class="TelegramDesktop"] floating enable
+#for_window [class="telegram-desktop"] floating enable
+
+##################################
+#             Startup            #
+##################################
+
+### Num Lock ON ###
+exec --no-startup-id numlockx on
+
+exec --no-startup-id i3-msg 'workspace 1; exec firefox -P default-release;'
+exec --no-startup-id i3-msg 'workspace 2; exec terminator;'
+exec --no-startup-id i3-msg 'workspace 4; exec subl;'
+exec --no-startup-id i3-msg 'workspace 5; exec pcmanfm;'
+exec --no-startup-id i3-msg 'workspace 5; exec doublecmd;'
+exec --no-startup-id i3-msg 'workspace 6; exec tg;'
+exec --no-startup-id i3-msg 'workspace 3; exec jetbrains-rubymine;'
+exec --no-startup-id i3-msg 'workspace 9; exec notion-app'
+exec --no-startup-id i3-msg 'workspace 6; exec mattermost-desktop;'
+
+# Start clipster daemon
+exec --no-startup-id copyq -d
 
